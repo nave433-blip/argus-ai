@@ -1,0 +1,221 @@
+{
+  "sources": [
+    {
+      "label": "Binance Academy - Moving Averages",
+      "url": "https://academy.binance.com/en/articles/what-are-moving-averages",
+      "ok": true,
+      "status": 200,
+      "bytes": 0,
+      "text_chars": 0
+    },
+    {
+      "label": "Binance Academy - RSI",
+      "url": "https://academy.binance.com/en/articles/relative-strength-index-explained",
+      "ok": true,
+      "status": 200,
+      "bytes": 0,
+      "text_chars": 0
+    },
+    {
+      "label": "Binance Academy - Risk Management",
+      "url": "https://academy.binance.com/en/articles/risk-management-in-crypto-trading",
+      "ok": true,
+      "status": 200,
+      "bytes": 0,
+      "text_chars": 0
+    },
+    {
+      "label": "Kraken Learn - Technical Analysis",
+      "url": "https://www.kraken.com/learn/trading/technical-analysis-crypto-trading",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "Kraken Learn - Dollar Cost Averaging",
+      "url": "https://www.kraken.com/learn/dollar-cost-averaging",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "Coinbase Learn - Crypto Trading Basics",
+      "url": "https://www.coinbase.com/learn/crypto-trading",
+      "ok": false,
+      "status": null,
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "label": "Coinbase Learn - What is volatility",
+      "url": "https://www.coinbase.com/learn/crypto-basics/what-is-volatility",
+      "ok": false,
+      "status": null,
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "label": "arXiv API - momentum crash",
+      "url": "https://export.arxiv.org/api/query?search_query=all:%22momentum+crash%22&start=0&max_results=5",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "arXiv API - regime switching trend following",
+      "url": "https://export.arxiv.org/api/query?search_query=all:%22regime+switching%22+AND+all:%22trend+following%22&start=0&max_results=5",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "arXiv API - volatility targeting",
+      "url": "https://export.arxiv.org/api/query?search_query=all:%22volatility+targeting%22&start=0&max_results=5",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "arXiv API - ATR trailing stop chandelier",
+      "url": "https://export.arxiv.org/api/query?search_query=all:%22average+true+range%22+AND+all:%22trailing+stop%22&start=0&max_results=5",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "arXiv API - trend following momentum",
+      "url": "https://export.arxiv.org/api/query?search_query=all:%22time+series+momentum%22&start=0&max_results=5",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "SSRN - Momentum Crashes abstract",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2486270",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "GitHub README - freqtrade",
+      "url": "https://raw.githubusercontent.com/freqtrade/freqtrade/develop/README.md",
+      "ok": true,
+      "status": 200,
+      "bytes": 12770,
+      "text_chars": 12271
+    },
+    {
+      "label": "GitHub README - jesse",
+      "url": "https://raw.githubusercontent.com/jesse-ai/jesse/master/README.md",
+      "ok": true,
+      "status": 200,
+      "bytes": 12787,
+      "text_chars": 12561
+    },
+    {
+      "label": "GitHub README - backtrader",
+      "url": "https://raw.githubusercontent.com/mementum/backtrader/master/README.rst",
+      "ok": true,
+      "status": 200,
+      "bytes": 5409,
+      "text_chars": 5056
+    },
+    {
+      "label": "GitHub README - vectorbt",
+      "url": "https://raw.githubusercontent.com/polakowo/vectorbt/master/README.md",
+      "ok": true,
+      "status": 200,
+      "bytes": 17483,
+      "text_chars": 15825
+    },
+    {
+      "label": "Freqtrade docs - strategy customization",
+      "url": "https://www.freqtrade.io/en/stable/strategy-customization/",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "Freqtrade docs - stoploss / trailing",
+      "url": "https://www.freqtrade.io/en/stable/stoploss/",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "Jesse docs - strategies",
+      "url": "https://docs.jesse.trade/docs/strategies/",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "Quantpedia - Trend Following",
+      "url": "https://quantpedia.com/strategies/trend-following-effect-in-stocks/",
+      "ok": true,
+      "status": 200,
+      "bytes": 196886,
+      "text_chars": 17057
+    },
+    {
+      "label": "arXiv abstract - Momentum-Gated / momentum crashes (2604.09060)",
+      "url": "https://arxiv.org/abs/2604.09060",
+      "ok": true,
+      "status": 200,
+      "bytes": 43354,
+      "text_chars": 5487
+    },
+    {
+      "label": "arXiv HTML - Regime-Switching Jump Model (2402.05272)",
+      "url": "https://arxiv.org/html/2402.05272v2",
+      "ok": true,
+      "status": 200,
+      "bytes": 199299,
+      "text_chars": 66664
+    },
+    {
+      "label": "AlgoGP - Chandelier Exit guide",
+      "url": "https://www.algogp.com/library/technical-indicators/chandelier-exit-guide",
+      "ok": true,
+      "status": 200,
+      "bytes": 199185,
+      "text_chars": 16146
+    },
+    {
+      "label": "JournalPlus - ATR Trailing Stop strategy",
+      "url": "https://journalplus.co/strategies/atr-trailing-stop-strategy/",
+      "ok": false,
+      "status": 302,
+      "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+    },
+    {
+      "label": "Freqtrade raw docs - stoploss",
+      "url": "https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/stoploss.md",
+      "ok": true,
+      "status": 200,
+      "bytes": 14352,
+      "text_chars": 14009
+    },
+    {
+      "label": "Freqtrade raw docs - strategy customization",
+      "url": "https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/strategy-customization.md",
+      "ok": true,
+      "status": 200,
+      "bytes": 65545,
+      "text_chars": 61463
+    },
+    {
+      "label": "Freqtrade raw docs - protections",
+      "url": "https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/includes/protections.md",
+      "ok": true,
+      "status": 200,
+      "bytes": 10080,
+      "text_chars": 9122
+    },
+    {
+      "label": "VectorBT raw docs - portfolio",
+      "url": "https://raw.githubusercontent.com/polakowo/vectorbt/master/docs/source/portfolio.md",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

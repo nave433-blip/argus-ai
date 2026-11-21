@@ -1,0 +1,1530 @@
+[
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "It trails a stop a multiple of ATR below the highest high, giving trends room to breathe."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "4 min readIntermediateUpdated October 14, 2026 Quick answer The chandelier exit sets a long trailing stop at the highest high of the last n periods minus a multiple of ATR, typically 22 periods and 3x ATR(22)."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "At a glance CreatorChuck LeBeau Long stopHighest high(22) \u2212 3 \u00d7 ATR(22) Short stopLowest low(22) + 3 \u00d7 ATR(22) Adapts toVolatility Best forExits on trend and breakout systems Key takeaways Exits often matter more than entries for trend strategies; the chandelier is one of the most robust."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Anchoring to the highest high means the stop only rises, like any trailing stop."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Explore this strategy with ApexBreakout with chandelier exit \u00b7 Breakout EntryClose at a new 55-day high."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "ExitClose below highest high(22) \u2212 3 \u00d7 ATR(22)."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "RiskInitial chandelier distance = 1% of equity.What do you want to trade?"
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Compare average win, average loss, profit factor, and maximum drawdown."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Trend systems usually show a lower win rate but larger winners with chandelier exits than with fixed targets."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "ExitClose below the chandelier stop (22, 3)."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "RiskPosition sized so the initial chandelier distance equals 1% of equity."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Frequently asked questions What are the standard chandelier exit settings?"
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "A 22-period lookback (about a trading month) and 3 times ATR(22)."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Can I use the chandelier exit for entries?"
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "It is designed as an exit, but a close back above a short chandelier stop is sometimes used as a trend-change entry signal."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "ATR measures how much the market actually moves, so the stop sits outside normal noise for that market and regime."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Talk this idea through before you trade itBreakout with chandelier exit \u00b7 Breakout Buy a close at a 55-day high and exit on a close below the chandelier stop: the 22-day highest high minus 3x ATR(22).What do you want to trade?"
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Key terms in this guide Chandelier exitThe chandelier exit is a trailing stop set a multiple of ATR below the highest high since entry (for longs), hanging from the high like a chandelier."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Trailing stopA trailing stop is a stop level that moves in the direction of a profitable trade by a fixed amount, percentage, or volatility multiple, but never moves back."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Average True Range (ATR)Average True Range measures volatility as the average of each bar\u2019s true range, including gaps; it is the standard tool for setting stops and sizing positions."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Parabolic SARParabolic SAR (stop and reverse) places dots below price in uptrends and above in downtrends, accelerating toward price over time to act as a trailing stop."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "SupertrendSupertrend is an ATR-based trend line that sits below price in uptrends and above it in downtrends, flipping when price closes through it."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Maximum drawdownMaximum drawdown is the largest peak-to-trough decline in equity over a period, the most-cited measure of how painful a strategy has been."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "DrawdownA drawdown is the decline in account or strategy equity from a peak to a subsequent trough, measured in percentage or currency."
+  },
+  {
+    "file": "algogp-chandelier-exit-guide.md",
+    "sentence": "Backtests and simulations are hypothetical, have inherent limitations, and do not guarantee future results."
+  },
+  {
+    "file": "arxiv-abstract-momentum-gated-momentum-crashes-2604-09060.md",
+    "sentence": "To counteract this propensity for momentum crashes, this study presents the Adaptive Equity Generation and Immunisation System (AEGIS), a novel framework that fundamentally reengineers the trade-off between growth and stability."
+  },
+  {
+    "file": "arxiv-abstract-momentum-gated-momentum-crashes-2604-09060.md",
+    "sentence": "By leveraging a volatility-adjusted momentum filter to identify trend strength and employing a minimax correlation algorithm to enforce structural diversification, the model utilises sequential least squares programming (SLSQP) to optimise capital allocation for the sortino ratio."
+  },
+  {
+    "file": "arxiv-abstract-momentum-gated-momentum-crashes-2604-09060.md",
+    "sentence": "This architecture allows the portfolio to dynamically adapt to distinct market regimes: explicitly lowering the intensity of crashes during bear markets by decoupling correlated risks, while retaining asymmetric upside participation during bull runs."
+  },
+  {
+    "file": "arxiv-abstract-momentum-gated-momentum-crashes-2604-09060.md",
+    "sentence": "Empirical validation via a comprehensive 20-year walk-forward backtest (2006-2025), which covers significant stress events like the 2008 Global Financial Crisis, confirms that the framework produces substantial excess alpha relative to the standard S&P 500 benchmark."
+  },
+  {
+    "file": "arxiv-abstract-momentum-gated-momentum-crashes-2604-09060.md",
+    "sentence": "These results suggest that synthetic beta can be effectively engineered through mathematical regularisation, enabling investors to capture the high-growth characteristics of concentrated portfolios while preserving the defensive stability typically associated with broad-market diversification."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "# arXiv HTML - Regime-Switching Jump Model (2402.05272)\nSource: https://arxiv.org/html/2402.05272v2\n\nDownside Risk Reduction Using Regime-Switching Signals: A Statistical Jump Model Approach Skip to main content Report GitHub Issue \u00d7 Title: Content selection saved."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Yizhan Shu Note: Department of Operations Research and Financial Engineering, Princeton University, Princeton, USA Chenyu Yu22footnotemark: 2 John M."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Mulvey, mulvey@princeton.edu August 24, 2026 Abstract This article investigates a regime-switching investment strategy aimed at mitigating downside risk by reducing market exposure during anticipated unfavorable market regimes."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "We highlight the statistical jump model (JM) for market regime identification, a recently developed robust model that distinguishes itself from traditional Markov-switching models by enhancing regime persistence through a jump penalty applied at each state transition."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The results demonstrate the consistent outperformance of the JM-guided strategy in reducing risk metrics such as volatility and maximum drawdown, and enhancing risk-adjusted returns like the Sharpe ratio, when compared to both hidden Markov model-guided strategy and the buy-and-hold strategy."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "These findings underline the enhanced persistence, practicality, and versatility of strategies utilizing JMs for regime-switching signals."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Keywords: Regime Switching; Statistical Jump Models; Clustering; Bear Markets; Market Timing; Investment Risk 1 Introduction Historically, traded markets have exhibited cyclical and time-varying behavior, driven by a complex interplay of economic, behavioral, and political factors."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "A financial regime is defined by extended, consecutive periods displaying homogeneous market behavior, manifesting as bull or bear markets characterized by positive or negative returns (Pagan and Sossounov,, 2003), calm or turbulent periods marked by low or high volatility (Schwert,, 1989), and risk-on or risk-off episodes reflecting market sentiment (Smales,, 2016), among other patterns."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "A regime switch denotes a sudden yet persistent shift in these behaviors."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Evidence of regime-switching patterns has been established across various asset classes, including equities (Hardy,, 2001), fixed income (Gray,, 1996), and currencies (Reus and Mulvey,, 2016)."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "A key advantage of regime-switching models is their interpretability; the identified regimes often align with real-world events like different phases of the macroeconomic business cycle (Hamilton,, 1989)."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "A principal application of financial regimes lies in mitigating downside risk -- the potential for losses under adverse market conditions11 1 Here, \u201cdownside risk\u201d refers to the risk of downside losses, relative to upside gains, under unfavorable conditions."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Among the various identified regimes, there often exists one marked by increased variances and covariances alongside lower, frequently negative returns."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Commonly termed \u201cbad times\u201d, \u201cbear markets\u201d or \u201cvolatile/high volatility regime\u201d, this characterization is prevalent among both academics and financial media."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "As foundational works in regime-based asset allocation (Ang and Bekaert,, 2002; Ang and Bekaert,, 2004) suggest, when a bear market is anticipated, the optimal strategy typically involves shifting to safer assets, such as the risk-free asset."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "This is because, \u201cin this regime, interest rates tend to be on average higher and equity returns more negatively correlated with the short rate\u201d."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Consequently, maintaining significant exposure to risky assets during bear markets due to the ignorance of regime-switching dynamics can lead to substantial economic costs, including wealth losses and drawdowns resulting from inadequate downside risk management."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "In this article, we explore a straightforward regime-switching investment strategy inspired by Bulla et al., (2011) to mitigate downside risk, with a specific focus on comparing the out-of-sample performance of various regime identification models under realistic conditions."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "This strategy, referred to as the \u201c0/1 strategy\u201d, is applied to an individual asset and utilizes its asset-specific regime identification by allocating 100% to the asset if a bull market is anticipated, or conversely, shifting 100% of the investment to the risk-free asset in anticipation of a bear market \u2013 hence the strategy\u2019s name."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The simplicity of this strategy makes it an effective tool for evaluating the financial implications of the accuracy of different regime identification models."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "We consider regime identification models22 2 The term regime identification models, also commonly known as regime-switching models in the literature, is used here to emphasize their ability to identify unobserved regimes."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Mis-estimation issues may arise from limited sample sizes, unbalanced data, or high state persistence, while model mis-specification often results from the non-normal and time-varying distributions, characteristics all typical and inherent to financial return series."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "In response to the challenges outlined above, various non-parametric regime identification models have recently emerged, with our study focusing particularly on statistical jump models (JMs)33 3 The JMs discussed in this article are not related to jump-diffusion models, commonly used in stochastic finance."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "This penalization is regulated by a hyperparameter known as the jump penalty, which reflects our prior belief about the desired persistence of the hidden state sequence."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Building on previous research that has demonstrated the enhanced persistence of inferred state sequences and improved identification accuracy in JMs, our primary contribution is to illustrate the financial benefits of these enhancements through a direct application in a regime-switching investment strategy."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "As previously noted, the jump penalty moderates the frequency of state transitions, and more intrinsically relates to the tradeoff between accuracy and latency, a common challenge in regime-switching strategies as discussed in Nystrup et al., 2018a ()."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Unlike earlier methods that select jump penalties based primarily on statistical criteria, our approach chooses the jump penalty that achieves the highest Sharpe ratio of the JM-informed 0/1 strategy over the validation period."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "This method aims to directly maximize the practical benefits for financial applications that rely on the regimes inferred by JMs."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "In our empirical analysis, we evaluate the out-of-sample performance of the 0/1 strategy using regimes inferred by JMs and HMMs, comparing it to the buy-and-hold strategy, when applied individually to daily equity indices from the US, Germany, and Japan."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Our results reveal that the 0/1 strategy, particularly when informed by JMs, significantly reduces risk metrics like volatility and maximum drawdown, highlighting its effectiveness in mitigating downside risk."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Additionally, the inherent persistence in JMs provides enhanced robustness against trading delays."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Section 3 delves into our methodology and discusses related literature, providing a detailed description of the regime-switching investment strategy and the regime identification models."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "In Section 4, we present the empirical findings, comparing the out-of-sample performance of the strategies and illustrating the inferred regimes."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The DAX, on the other hand, exhibits more pronounced volatility with deeper drawdowns during turbulent periods."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Throughout the period, all indices display persistent bear and bull markets, with significant losses during major events such as the dot-com bubble, the 2008 financial crisis, and the 2020 COVID-19 crash."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "These patterns highlight the value of regime-switching models to generate signals that can help mitigate downside risk by shifting to safer assets during extended bear markets."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "3 Methodology In this section, we first discuss the 0/1 strategy, followed by an overview of the regime identification models that generate switching signals for this strategy."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "3.1 Regime-Switching Investment Strategy We focus on the 0/1 strategy, which switches between a 100% investment in either a risky asset or a risk-free asset, based on whether the inferred prevailing regime for the risky asset is favorable, such as a bull market or low volatility regime."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The economic rationale is straightforward: we shift to safer assets when a persistent unfavorable regime is anticipated."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "This binary asset universe \u2013 comprising one risky and one risk-free asset \u2013 has long been studied in regime-based asset allocation."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "For instance, Guidolin and Timmermann, (2004) explore the optimal portfolio choice within these two assets under a regime-switching return process, while Nystrup et al., 2018b () address multi-period portfolio optimization in this universe under changing market conditions."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "By isolating the potential for diversification, the performance of the 0/1 strategy offers a clear evaluation of the added value from asset-specific regime identification, aligning perfectly with our goal to compare the out-of-sample performance of various regime identification models."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "On the other hand, numerous studies, including those by van Vliet and Blitz, (2011); Sheikh and Sun, (2012), have investigated dynamic asset allocation that spans a broader range of asset classes to leverage diversification benefits."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Specifically, Shu et al., (2024) demonstrate a systematic approach using various portfolio construction methods to integrate asset-specific regime identification, as generated by JMs in this article, into a multi-asset portfolio."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Alternative regime-based weight allocation methods exist within this asset universe, yet they often perform similarly to the simpler 0/1 weighting scheme."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "For instance, Nystrup et al., (2015) test a long-short strategy on an equity index based on identified regimes."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "While this approach enhances returns, the shorting positions fail to effectively mitigate risk, resulting in high volatility and drawdowns."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "To enhance practical applicability, the persistence of regime forecasts emerges as a critical factor in preventing excessive rebalancing while maintaining identification accuracy, an aspect where jump models can offer advantages."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The importance of the persistence of inferred regimes is further discussed at the end of Section 3.2."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Following previous studies (Nystrup et al.,, 2015; Nystrup et al., 2018a, ), we assume a one-day delay, meaning that if the prevailing regime inferred at the end of day tt differs from the regime on which the current allocation is based, then the switch in allocation can only be executed at the end of next day t+1t+1, or, in other words, the signal applied starting from day t+2t+2."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "3.2 Overview of Regime Identification Models Harding and Pagan, 2003a () sparked a debate over the advantages and disadvantages of parametric versus non-parametric models in applying regime identification models to date business cycles (Hamilton,, 2003; Harding and Pagan, 2003b, )."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Parametric models assume specific probability distributions for observations and use estimated parameters to infer regime assignments."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "In contrast, non-parametric models adopt a likelihood-free, data-driven approach that focuses on directly identifying the unobserved regime sequence, particularly the turning points."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Markov-switching models form a substantial portion of the parametric family, integrating regime-switching dynamics into various models, including Gaussian distributions (Turner et al.,, 1989), autoregressive models (Hamilton,, 1989), and ARCH models (Hamilton and Susmel,, 1994), to characterize both macroeconomic variables and financial returns."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "This chain is often characterized by high diagonal values in the transition probability matrix, close to 1.0, reflecting significant state persistence."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "For our purposes, hidden Markov models (HMMs) have been demonstrated by Ryd\u00e9n et al., (1998) to adequately capture many temporal and distributional stylized facts in equity index returns, and by numerous studies such as Bulla et al., (2011); Bae et al., (2014); Nystrup et al., (2015) to enhance investment performance in regime-switching strategies."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Parallel advancements have been made in non-parametric regime identification models, aimed at addressing the limitations of the parametric family, including restriction to predetermined distributional assumptions, challenges in computing maximum likelihood estimation (MLE) due to the presence of latent variables, and a lack of transparency in the identification rules."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Initially, the non-parametric business cycle dating algorithm in Harding and Pagan, 2003a () comprised a set of simple rules coupled with persistence-enhancing censoring procedures, designed specifically for univariate time series."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Among these alternatives, we focus on statistical jump models that enhance kk-means clustering by imposing a jump penalty with each regime switch, offering improved regime persistence and a potential for application in the 0/1 strategy that involves significant portfolio rebalancing."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "First, both models infer regimes directly from market data \u2013 specifically, daily equity index returns \u2013 rather than macroeconomic indicators, as utilized in many studies (Kim and Kwon,, 2023; Elkamhi et al.,, 2023)."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "While those studies focus on economic regimes that influence all considered assets or regions through broad economic conditions, our research aims to identify financial regimes tailored to specific markets based on asset returns."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Nevertheless, there are differences: HMMs characterize regimes solely by conditional volatilities, whereas JMs consider a broader set of features including both return and risk measures."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "In our notation, st=0s_{t}=0 denotes the favorable regime, and st=1s_{t}=1 denotes the unfavorable one."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Third, both models generate daily switching signals to alleviate the impact of incorrect regime forecasts from a whole month to shorter spans."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "In this context, regime identification models are interpretative rather than predictive, focusing on understanding daily market dynamics88 8 Thus, in this article, we avoid terms like \u201cregime prediction/forecasting\u201d."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The task of using all available information at the end of day tt to predict the market regime st+1s_{t+1} tomorrow is explored in studies such as James et al., (2019); Uysal and Mulvey, (2021); Shu et al., (2024), which employ classification algorithms including support vector machines and (gradient-boosted) decision trees."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The prediction label st+1s_{t+1} may correspond to observed regimes or unobserved ones inferred from regime identification models, as described in this article."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Consequently, the profitability of regime-based strategies heavily relies on the assumption of regime persistence, hoping that the regime identified for day tt will persist into the following days and beyond."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "As Nystrup et al., (2015) summarize, the purpose of regime-based strategies is \u201cnot to predict regime shifts or future market movements, but to identify when a regime shift has occurred, and then benefit from the persistence of equilibrium risk-return relations\u201d."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "This, in turn, places a high demand on the persistence of regimes inferred from the models, as a regime signal that flips very frequently is unlikely to be useful for investment purposes given the constraint that portfolio managers can only change allocation from day t+2t+2 or even later, based on the regime inferred for day tt."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Differences in persistence between HMMs and JMs are detailed in Table 3 and Section 4."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The two regimes are distinguished by their estimated conditional volatilities, categorized as either low or high volatility regimes."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Figure 2 illustrates the evolution over time of the estimated conditional returns and volatilites (annualized) for each regime from the rolling HMM fit on the S&P 500 index1111 11 For brevity, in this section, we present the model fitting results only for the S&P 500 index."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The regimes are consistently differentiated by volatilites, with the estimated volatilities under the two regimes differing by at least a factor of two."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Furthermore, the high volatility regime predominantly experiences negative returns, reflecting the lower risk-adjusted returns during turbulent periods."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Figure 2: Estimated conditional returns and volatilites by regime from a rolling HMM fit on the S&P 500 index from 1982 to 2023."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The yellow curve represents the estimated parameters for the high volatility regime, with the blue curve representing the low volatility regime."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "On the training window ending at day tt, we use the Viterbi algorithm to decode the hidden state sequence and extract the last identified state s^t\\hat{s}_{t} as the online inferred prevailing regime."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "A consequence is that the persistence of the online inferred state sequence (s^t)\\left(\\hat{s}_{t}\\right) is compromised."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Following the solution in Bulla et al., (2011), we apply a median filter, equivalent to computing a rolling mean on the sequence (s^t)\\left(\\hat{s}_{t}\\right) over a trailing window of length kk, and only signal a high volatility regime when the rolling mean exceeds 0.5 (recall that low/high volatility regimes are denoted by st=0/1s_{t}=0/1, respectively)."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "After estimating the JM, we derive the transition probability matrix from the optimal hidden state sequence and calculate metrics such as return and volatility for each state."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The state with the higher cumulative return is identified as the bull regime (st=0s_{t}=0), while the state typically exhibiting negative cumulative return is considered bearish (st=1s_{t}=1)."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The objective function (1) balances fitting the data with multiple model parameters and incorporating our prior beliefs about the persistence of the state sequence, where \u03bb\u22650\\lambda\\geq 0 is a critical hyperparameter known as the jump penalty."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Subsequently, Nystrup et al., 2020b () introduce JMs to financial applications, illustrating that JMs can outperform HMMs in identification accuracy and state sequence persistence."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Ayd\u0131nhan et al., (2024) expand JMs into the continuous statistical jump model (CJM) by generalizing the discrete hidden state variable into a probability vector across all states, offering a probabilistic interpretation where the hidden state vector represents the probability of each period belonging to each regime."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "To ensure a fair comparison with HMMs, which utilizes the daily return series itself, this article develops only a parsimonious set of features for JMs."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "This model performs feature selection based on the in-sample clustering effect of each feature, with applications in identifying cryptocurrency market regimes (Cortese et al.,, 2023)."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Figure 3 illustrates the evolution over time of the optimal \u0398^\\hat{\\Theta} (annualized) for each regime from the rolling JM fit on the S&P 500 index from 1982 to 2023, serving as a counterpart to the parameter plot for HMMs in Figure 2."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Under the bull regime, the optimal features are characterized by low risk and high return measures, while the bear regime features elevated risk and negative return measures."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Figure 3: Optimal model parameters for all three features (referenced in Table 2) by regime from a rolling JM fit on the S&P 500 index from 1982 to 2023."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "All values on the yy-axis are annualized; the downside deviation feature is scaled by 2\\sqrt{2}, and the Sortino ratio features are divided by 2\\sqrt{2}, to ensure consistency with volatility and Sharpe ratio calculations."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The yellow curve represents the optimal model parameters for the bear regime, with the blue curve representing the bull regime."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "We then extract the last state s^t\\hat{s}_{t} from the optimal state sequence as the online inferred prevailing regime."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The above procedure for generating online regime inference is applicable to any fixed jump penalty."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Here, we illustrate the differences in persistence between HMMs and JMs, and how it is influenced by their respective smoothing hyperparameter: the window length kk, over which the rolling mean of (s^t)(\\hat{s}_{t}) is calculated for HMMs, and the jump penalty \u03bb\\lambda for JMs."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "In Table 3, we present the average number of regime shifts per year in the online inferred state sequence from 1982 to 2023, generated by HMMs and JMs under fixed smoothing hyperparameters."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "For HMMs, increasing kk can reduce the number of regime shifts, but not very efficiently."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "At a typical value between 50.0 to 100.0, the number of shifts per year is reduced to fewer than one, aligning with the frequency in observed regimes such as the business cycle."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "HMM JM k=0k=0 2 4 8 20 \u03bb=0.0\\lambda=0.0 5.0 15.0 35.0 70.0 150.0 # of shifts 8.5 6.6 4.9 3.2 2.0 9.7 2.7 1.7 0.8 0.5 0.4 Table 3: Average number of shifts per year in the online inferred regime sequence from 1982 to 2023, generated by HMMs, smoothed by taking rolling means over different lookback window lengths kk, and by JMs, using different jump penalty values \u03bb\\lambda."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Before delving into the tactic for tuning the smoothing hyperparameters, we illustrate the latency of our online generated signal in indicating a regime shift after a turning point, typically recognized only in hindsight, has already occurred."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Here, latency refers to the model\u2019s timeliness in detecting a regime shift, distinct from the trading delay which pertains to practical constraints."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Such latency is inherent in regime identification models, representing a tradeoff with accuracy."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "For example, immediately after the onset of a bear market (identified ex-post), the model requires several days of negative returns to confirm a regime shift, in order to avoid frequent false alarms that compromise identification accuracy."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "To demonstrate this, Figure 4 compares the regimes derived from in-sample training (shown in red) with those inferred online (shown in green) for the S&P 500 index by JMs (\u03bb\\lambda fixed at 50.0) during the COVID-19 market crash from February to June 2020."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The in-sample identified regimes are based on a 3000-day training window ending at the end of 2020, using complete market data up to that point, while the online inferred regimes are generated daily using only the latest available data."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "For instance, Nystrup et al., 2018a () report that \u201cthe median [latency] in detecting regime changes is 25 (calendar) days.\u201d During this period, the US market rebounded swiftly due to the Federal Reserve\u2019s quantitative easing."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Although using the online inferred regimes with a one-day trading delay did not necessarily improve strategy returns \u2013 owing to latency at the end of the crash and the consequent missed market rebounds \u2013 it effectively prevents a significant drawdown of about 20%, thereby fulfilling the primary goal of reducing downside risk."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Figure 4: Comparison of regimes derived from in-sample training (in red) and those inferred online (in green) for the S&P 500 index by JMs, with a fixed jump penalty of 50.0, during the COVID-19 crash period from February to June 2020."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The in-sample regimes are based on a 3000-day training window ending at the end of 2020."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "We then select the value \u03bb^\\hat{\\lambda} that yields the highest Sharpe ratio during this validation period and use this value for the following month to generate out-of-sample regime inference post hyperparameter tuning."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "4 Empirical Results Table 4 presents a performance comparison between the buy-and-old strategy and the 0/1 strategy using online inferred regimes from both the HMM and JM, with their respective hyperparameters optimally selected."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Each row represents an annualized performance metric: compound annual growth rate (\u201cReturn\u201d, including the risk-free rate), volatility, Sharpe ratio (average excess return over volatility), maximum drawdown (\u201cMDD\u201d), Calmar ratio (average excess return over MDD), expected shortfall at 5% level, portfolio turnover and leverage."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "From the performance metrics presented, we first observe that the 0/1 strategy effectively improves several risk measures, including volatility, maximum drawdown (MDD), and expected shortfall at 5% level."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Consequently, our JM strategy achieves higher risk-adjusted return metrics, including Sharpe and Calmar ratios, than both buy-and-holding the index and the HMM-guided strategy."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "This illustrates the advantage of shifting to safer assets during accurately identified persistent bear markets."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The benefits of enhanced persistence offered by JMs are further substantiated by the significantly reduced turnover of the JM strategy, which compares favorably with the HMM strategy."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The turnover of the JM-guided 0/1 strategy applied to the S&P 500 is as low as 44%, meaning that on average, the portfolio manager buys and sells 44% of total allocation (a combined 88% trading) each year \u2013 a relatively mild figure despite the large portfolio rebalancing that occurs with each regime shift."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Figure 5: JM-inferred bear regimes and cumulative excess return curves for three strategies: the buy-and-hold (blue), the 0/1 strategy using JM-inferred regimes (yellow), and the 0/1 strategy using HMM-inferred regimes (green), for the S&P 500, DAX and Nikkei 225 indices from 1990 to 2023."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The red shading represents bear regimes online inferred by JMs (shifted forward by 2 days), when the JM-guided 0/1 strategy is fully invested in the risk-free asset, leading to a flat yellow curve."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Figure 5 provides a visualization of the bear regimes online inferred by JMs (shown in red shading) for the three indices, alongside the curves of cumulative excess returns from the three strategies compared in Table 4, spanning from 1990 to 2023."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The bear regimes are shifted forward by two days to account for the trading delay, so that the red shaded areas represent periods when the JM-guided 0/1 strategy allocates 100% to the risk-free asset, leading to a flat yellow curve."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "These regimes generally align with significant market downturns, such as the dot-com bubble in the early 2000s, the 2008 financial crisis, the 2020 COVID-19 crash, and the 2022 market decline driven by inflation and geopolitical tensions."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Additionally, other region-specific bear regimes are captured, such as those experienced in Japan during the 1990s following the asset bubble burst."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The yellow curve representing the JM strategy often outperforms the others, exhibiting milder drawdowns and providing more robust protection against adverse market movements."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Nonetheless, the identified regimes show some latency at the beginnings and endings of market crashes and might sometimes misinterpret the oscillations during prolonged turbulent periods, attributable to sharp positive and negative fluctuations."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Figure 6 shows the HMM-inferred bear regimes for the S&P 500 index, alongside its strategy\u2019s cumulative excess return curve from 1990 to 2023."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "In stark contrast to the JM-inferred regimes shown in Figure 5, the HMM-inferred regimes display numerous short-lived regimes that are unintuitive and difficult to trade, frequently resulting in the underperformance of the HMM strategy compared to the buy-and-hold strategy, attributable to both increased trading costs and compromised identification accuracy."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "These short-lived regimes arise primarily from the HMM\u2019s sensitivity to daily market noise, often corresponding to brief periods of market oscillations that are challenging to time effectively."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Figure 6: HMM-inferred bear regimes (red shading) and cumulative excess return curves for two strategies: the buy-and-hold (blue), the 0/1 strategy using HMM-inferred regimes (green), for the S&P 500 index from 1990 to 2023."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Our previous discussions assume a one-day delay, meaning that the identified regime for day tt is applied to trading at the end of the following day t+1t+1."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "A potentially longer delay necessitates even greater persistence from our regime switching signals to maintain effectiveness."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "For the S&P 500, the decay is very slow for both JMs and HMMs, likely due to the high persistence of its regimes."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "In the case of the DAX and Nikkei 225 indices, the persistence of JMs becomes evident; the HMM strategy underperforms the market with a 5-day delay, whereas the JM strategy maintains a Sharpe ratio better than or comparable to the index even at the longest two-week delay."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "5 Conclusion In this article, we have presented a regime-switching investment strategy utilizing the statistical jump model (JM) to mitigate downside risk by timely shifting to safer assets in response to anticipated unfavorable market conditions."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The flexibility and persistence of JMs provide practical advantages over traditional Markov-switching models in financial applications, such as reducing unnecessary portfolio rebalancing and accommodating a broader range of features."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "The results indicate that the JM-guided strategy consistently outperforms both the hidden Markov model-guided strategy and the buy-and-hold strategy in reducing volatility and maximum drawdowns and enhancing risk-adjusted returns."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Furthermore, JMs\u2019 inherent persistence lends enhanced robustness against trading delays."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "A hybrid learning approach to detecting regime switches in financial markets."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "International asset allocation with regime shifts."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "A dynamic regime-switching model using gated recurrent straight-through units."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Identifying patterns in financial markets: extending the statistical jump model for regime identification."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Dynamic asset allocation for varied financial markets under regime switching framework."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Regime-aware factor allocation with optimal feature selection."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Portfolio tilts using views on macroeconomic regimes."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Modeling the conditional distribution of interest rates as a regime-switching process."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Optimal portfolio choice under regime switching, skew and kurtosis preferences."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Autoregressive conditional heteroskedasticity and changes in regime."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "A regime-switching model of long-term stock returns."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Dynamic asset allocation strategy: an economic regime approach."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Detecting multivariate market regimes via clustering algorithms."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Identifying economic regimes: Reducing downside risks for university endowments and foundations."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Dynamic allocation or diversification: A regime-based approach to multiple assets."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Regime-based versus static asset allocation: Letting the data speak."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Greedy online classification of persistent market states using realized intraday volatility features."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Learning hidden Markov models with persistent states by penalizing jumps."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Dynamic portfolio optimization across hidden market regimes."
+  },
+  {
+    "file": "arxiv-html-regime-switching-jump-model-2402-05272.md",
+    "sentence": "Dynamic allocations for currency futures under switching regimes signals."
+  },
+  {
+    "file": "binance-academy-moving-averages.md",
+    "sentence": "# Binance Academy - Moving Averages\nSource: https://academy.binance.com/en/articles/what-are-moving-averages"
+  },
+  {
+    "file": "binance-academy-rsi.md",
+    "sentence": "# Binance Academy - RSI\nSource: https://academy.binance.com/en/articles/relative-strength-index-explained"
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "Note \"Backtesting\" Protections are supported by backtesting and hyperopt, but must be explicitly enabled by using the `--enable-protections` flag."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "### Available Protections * [`StoplossGuard`](#stoploss-guard) Stop trading if a certain amount of stoploss occurred within a certain time window."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "* [`MaxDrawdown`](#maxdrawdown) Stop trading if max-drawdown is reached."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "#### Stoploss Guard `StoplossGuard` selects all trades within `lookback_period` in minutes (or in candles when using `lookback_period_candles`)."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "If `trade_limit` or more trades resulted in stoploss, trading will stop for `stop_duration` in minutes (or in candles when using `stop_duration_candles`, or until the set time when using `unlock_at`)."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "For futures bots, setting `only_per_side` will make the bot only consider one side, and will then only lock this one side, allowing for example shorts to continue after a series of long stoplosses."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "`required_profit` will determine the required relative profit (or loss) for stoplosses to consider."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "This should normally not be set and defaults to 0.0 - which means all losing stoplosses will be triggering a block."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "The below example stops trading for all pairs for 4 candles after the last trade if the bot hit stoploss 4 times within the last 24 candles."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "``` python @property def protections(self): return [ { \"method\": \"StoplossGuard\", \"lookback_period_candles\": 24, \"trade_limit\": 4, \"stop_duration_candles\": 4, \"required_profit\": 0.0, \"only_per_pair\": False, \"only_per_side\": False } ] ``` !!!"
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "Note `StoplossGuard` considers all trades with the results `\"stop_loss\"`, `\"stoploss_on_exchange\"` and `\"trailing_stop_loss\"` if the resulting profit was negative."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "#### MaxDrawdown The `MaxDrawdown` protection evaluates trades that closed within the current `lookback_period` (or `lookback_period_candles`)."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "- `calculation_mode: \"equity\"`: Standard peak-to-trough drawdown on the account equity curve, using starting balance and cumulative absolute profit."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "With `calculation_mode: \"ratios\"`, drawdown is derived from cumulative trade profit ratios, not from the account equity curve."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "This is kept for backward compatibility and can differ from account-level drawdown when position sizing changes over time."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "If the observed drawdown exceeds `max_allowed_drawdown`, trading will stop for `stop_duration` after the last trade - assuming that the bot needs some time to let markets recover."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "The below sample stops trading for 12 candles if max-drawdown is > 20% considering all pairs - with a minimum of `trade_limit` trades - within the last 48 candles."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "* Stops trading for 4 hours (`4 * 1h candles`) if the last 2 days (`48 * 1h candles`) had 20 trades, which caused a max-drawdown of more than 20%."
+  },
+  {
+    "file": "freqtrade-raw-docs-protections.md",
+    "sentence": "* Stops trading if more than 4 stoploss occur for all pairs within a 1 day (`24 * 1h candles`) limit (`StoplossGuard`)."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "# Freqtrade raw docs - stoploss\nSource: https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/stoploss.md\n\n# Stop Loss The `stoploss` configuration parameter is loss as ratio that should trigger a sale."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Stoploss calculations do include fees, so a stoploss of -10% is placed exactly 10% below the entry point."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Most of the strategy files already include the optimal `stoploss` value."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Info All stoploss properties mentioned in this file can be set in the Strategy, or in the configuration."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "<ins>Configuration values will override the strategy values.</ins> ## Stop Loss On-Exchange/Freqtrade Those stoploss modes can be *on exchange* or *off exchange*."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "These modes can be configured with these values: ``` python 'emergency_exit': 'market', 'stoploss_on_exchange': False 'stoploss_on_exchange_interval': 60, 'stoploss_on_exchange_limit_ratio': 0.99 ``` Stoploss on exchange is only supported for the following exchanges, and not all exchanges support both stop-limit and stop-market."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "info \"Supported exchanges and stoploss types\" --8<-- \"includes/exchange-features.md\" !!!"
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Note \"Tight stoploss\" Do not set too low/tight stoploss value when using stop loss on exchange!"
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "If set to low/tight you will have greater risk of missing fill on the order and stoploss will not work."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Warning \"Loose stoploss\" Using stoploss on exchange with a very wide stoploss (e.g."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "-1) may fail to place the stoploss order on exchange due to exchange limitations."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "In that case, the bot will fallback to using the `emergency_exit` order type to place a market order as placing the stoploss order failed."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Freqtrade currently does not implement a limitation to avoid this situation, so please ensure your stoploss values are within reasonable limits for your exchange or disable stoploss on exchange."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "### Which order type is used for stoploss on exchange?"
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "The order type used for stoploss on exchange is determined by the `stoploss` value and the exchange capabilities."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "If your selected exchange supports both stop-limit and stop-market orders, then the `stoploss` value will determine which order type is used for stoploss on exchange."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "If your exchange only supports one of the two order types, you must configure your `stoploss` value accordingly, otherwise the bot will fail to start."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "### Which order type should i use for stoploss on exchange?"
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "If we translate the two stoploss order types into human words - they would be something like this: * **stoploss-market** -> \"when stop triggers, get me the hell out of here at whatever price\"."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "* **stoploss-limit** -> \"when stop triggers, place a limit order x% below the stoploss price."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "I accept a loss of \"stoploss + 1%\" at worst - but if price jumps further - i accept to wait for price to get back down to me, potentially resulting in a much bigger loss than \"stoploss + 1%\"."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "As a consequence, we recommend using stoploss-market orders whenever possible, as the main point of a stoploss is to get you out of a position when the market is crashing, and in such situations, you'll want to exit the position immediately at the best available price, rather than risking a limit order not getting filled and potentially incurring even greater losses."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "The choice is ultimately up to you, but please be aware of the risk of using stoploss-limit orders, especially in volatile markets."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "### stoploss_on_exchange and stoploss_on_exchange_limit_ratio Enable or Disable stop loss on exchange."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "If the stoploss is *on exchange* it means a stoploss limit order is placed on the exchange immediately after buy order fills."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "If `stoploss_on_exchange` uses limit orders, the exchange needs 2 prices, the stoploss_price and the Limit price."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "`stoploss` defines the stop-price where the limit order is placed - and limit should be slightly below this."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "If an exchange supports both limit and market stoploss orders, then the value of `stoploss` will be used to determine the stoploss type."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "For example, assuming the stoploss is on exchange, and trailing stoploss is enabled, and the market is going up, then the bot automatically cancels the previous stoploss order and puts a new one with a stop value higher than the previous stoploss order."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Note If `stoploss_on_exchange` is enabled and the stoploss is cancelled manually on the exchange, then the bot will create a new stoploss order."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "### stoploss_on_exchange_interval In case of stoploss on exchange there is another parameter called `stoploss_on_exchange_interval`."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "This configures the interval in seconds at which the bot will check the stoploss and update it if necessary."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "So this parameter will tell the bot how often it should update the stoploss order."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "This same logic will reapply a stoploss order on the exchange should you cancel it accidentally."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Warning \"Only applies to futures\" `stoploss_price_type` only applies to futures markets (on exchanges where it's available)."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "In spot markets, this setting is ignored and not validated, as most exchanges only support one price type for stoploss orders on spot markets."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Stoploss on exchange on futures markets can trigger on different price types."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Acceptable values for this setting are `\"last\"`, `\"mark\"` and `\"index\"` - which freqtrade will transfer automatically to the corresponding API type, and place the [stoploss on exchange](#stoploss_on_exchange-and-stoploss_on_exchange_limit_ratio) order correspondingly."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Example from strategy file: ``` python order_types = { \"entry\": \"limit\", \"exit\": \"limit\", \"emergency_exit\": \"market\", \"stoploss\": \"market\", \"stoploss_on_exchange\": True, \"stoploss_on_exchange_interval\": 60, \"stoploss_on_exchange_limit_ratio\": 0.99 } ``` ## Stop Loss Types At this stage the bot contains the following stoploss support modes: 1."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Trailing stop loss, custom positive loss."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Trailing stop loss only once the trade has reached a certain offset."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "[Custom stoploss function](strategy-callbacks.md#custom-stoploss) ### Static Stop Loss This is very simple, you define a stop loss of x (as a ratio of price, i.e."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Example of stop loss: ``` python stoploss = -0.10 ``` For example, simplified math: * the bot buys an asset at a price of 100$ * the stop loss is defined at -10% * the stop loss would get triggered once the asset drops below 90$ ### Trailing Stop Loss The initial value for this is `stoploss`, just as you would define your static Stop loss."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "To enable trailing stoploss: ``` python stoploss = -0.10 trailing_stop = True ``` This will now activate an algorithm, which automatically moves the stop loss up every time the price of your asset increases."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "In summary: The stoploss will be adjusted to be always be -10% of the highest observed price."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "### Trailing stop loss, different positive loss You could also have a default stop loss when you are in the red with your buy (buy - fee), but once you hit a positive result (or an offset you define) the system will utilize a new stop loss, with a different value."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "For example, your default stop loss is -10%, but once you have reached profitability (example 0.1%) a different trailing stoploss will be used."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Note If you want the stoploss to only be changed when you break even of making a profit (what most users want) please refer to next section with [offset enabled](#trailing-stop-loss-only-once-the-trade-has-reached-a-certain-offset)."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Before this, `stoploss` is used for the trailing stoploss."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Tip \"Use an offset to change your stoploss\" Use `trailing_stop_positive_offset` to ensure that your new trailing stoploss will be in profit by setting `trailing_stop_positive_offset` higher than `trailing_stop_positive`."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Your first new stoploss value will then already have locked in profits."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "If `trailing_only_offset_is_reached = True` then the trailing stoploss is only activated once the offset is reached."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Until then, the stoploss remains at the configured `stoploss` and is not trailing."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Leaving this value as `trailing_only_offset_is_reached=False` will allow the trailing stoploss to start trailing as soon as the asset price increases above the initial entry price."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "## Stoploss and Leverage Stoploss should be thought of as \"risk on this trade\" - so a stoploss of 10% on a 100$ trade means you are willing to lose 10$ (10%) on this trade - which would trigger if the price moves 10% to the downside."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "When using leverage, the same principle is applied - with stoploss defining the risk on the trade (the amount you are willing to lose)."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Therefore, a stoploss of 10% on a 10x trade would trigger on a 1% price move."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "If price moves 1% - you've lost 10$ of your own capital - therefore stoploss will trigger in this case."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "Make sure to be aware of this, and avoid using too tight stoploss (at 10x leverage, 10% risk may be too little to allow the trade to \"breath\" a little)."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "## Changing stoploss on open trades A stoploss on an open trade can be changed by changing the value in the configuration or strategy and use the `/reload_config` command (alternatively, completely stopping and restarting the bot also works)."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "The new stoploss value will be applied to open trades (and corresponding log-messages will be generated)."
+  },
+  {
+    "file": "freqtrade-raw-docs-stoploss.md",
+    "sentence": "### Limitations Stoploss values cannot be changed if `trailing_stop` is enabled and the stoploss has already been adjusted."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Additionally, there is an attribute called `INTERFACE_VERSION`, which defines the version of the strategy interface the bot should use."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "The current version is 3 - which is also the default when it's not set explicitly in the strategy."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "You may see older strategies set to interface version 2, and these will need to be updated to v3 terminology as future versions will require this to be set."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Note \"Strategies and Backtesting\" To avoid problems and unexpected differences between backtesting and dry/live modes, please be aware that during backtesting the full time range is passed to the `populate_*()` methods at once."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Warning \"Warning: Using future data\" Since backtesting passes the full time range to the `populate_*()` methods, the strategy author needs to take care to avoid having the strategy utilize data from the future."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Hint \"Lookahead and recursive analysis\" Freqtrade includes two helpful commands to help assess common lookahead (using future data) and recursive bias (variance in indicator values) issues."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Please check the relevant documentation for [lookahead](lookahead-analysis.md) and [recursive](recursive-analysis.md) analysis."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "As such, simple python comparisons like the following will not work: ``` python if dataframe['rsi'] > 30: dataframe['enter_long'] = 1 ``` The above section will fail with `The truth value of a Series is ambiguous [...]`."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "``` python dataframe.loc[ (dataframe['rsi'] > 30) , 'enter_long'] = 1 ``` With this section, you have a new column in your dataframe, which has `1` assigned whenever RSI is above 30."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Warning \"Trade order assumptions\" In backtesting, signals are generated on candle close."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "You can use [recursive-analysis](recursive-analysis.md) to check and find the correct `startup_candle_count` to be used."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "When recursive analysis shows a variance of 0%, then you can be sure that you have enough startup candle data."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "``` python dataframe['ema100'] = ta.EMA(dataframe, timeperiod=100) ``` By letting the bot know how much history is needed, backtest trades can start at the specified timerange during backtesting and hyperopt."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "#### Example Let's try to backtest 1 month (January 2019) of 5m candles using an example strategy with EMA100, as above."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "``` bash freqtrade backtesting --timerange 20190101-20190201 --timeframe 5m ``` Assuming `startup_candle_count` is set to 400, backtesting knows it needs 400 candles to generate valid entry signals."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "The unstable startup period (up to 2019-01-01 00:00:00) will then be removed before backtesting is carried out."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "In our example, backtesting would then start from 2019-01-02 09:20:00."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "### Stoploss Setting a stoploss is highly recommended to protect your capital from strong moves against you."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Sample of setting a 10% stoploss: ``` python stoploss = -0.10 ``` For the full documentation on stoploss features, look at the dedicated [stoploss page](stoploss.md)."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "The metadata dict should not be modified and does not persist information across multiple functions in your strategy."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Instead, please check the [Storing information](strategy-advanced.md#storing-information-persistent) section."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Example usage: @informative('1h') def populate_indicators_1h(self, dataframe: DataFrame, metadata: dict) -> DataFrame: dataframe['rsi'] = ta.RSI(dataframe, timeperiod=14) return dataframe :param timeframe: Informative timeframe."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "``` python from datetime import datetime from freqtrade.persistence import Trade from freqtrade.strategy import IStrategy, informative class AwesomeStrategy(IStrategy): # This method is not required."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Available in populate_indicators as 'rsi_30m' and 'rsi_1h'."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "@informative('30m') @informative('1h') def populate_indicators_1h(self, dataframe: DataFrame, metadata: dict) -> DataFrame: dataframe['rsi'] = ta.RSI(dataframe, timeperiod=14) return dataframe # Define BTC/STAKE informative pair."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Available in populate_indicators and other methods as # 'btc_rsi_1h'."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Available in populate_indicators and other # methods as 'btc_usdt_rsi_1h' (when stake currency is USDT)."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "@informative('1h', 'BTC/{stake}') def populate_indicators_btc_1h(self, dataframe: DataFrame, metadata: dict) -> DataFrame: dataframe['rsi'] = ta.RSI(dataframe, timeperiod=14) return dataframe # Define BTC/ETH informative pair."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Available in populate_indicators and other methods as 'eth_btc_rsi_1h'."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "@informative('1h', 'ETH/BTC') def populate_indicators_eth_btc_1h(self, dataframe: DataFrame, metadata: dict) -> DataFrame: dataframe['rsi'] = ta.RSI(dataframe, timeperiod=14) return dataframe # Define BTC/STAKE informative pair."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Available in populate_indicators and other methods as 'rsi_upper_1h'."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "@informative('1h', 'BTC/{stake}', '{column}_{timeframe}') def populate_indicators_btc_1h_2(self, dataframe: DataFrame, metadata: dict) -> DataFrame: dataframe['rsi_upper'] = ta.RSI(dataframe, timeperiod=14) return dataframe def populate_indicators(self, dataframe: DataFrame, metadata: dict) -> DataFrame: # Strategy timeframe indicators for current pair."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "dataframe['rsi'] = ta.RSI(dataframe, timeperiod=14) # Informative pairs are available in this method."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "dataframe['rsi_less'] = dataframe['rsi'] < dataframe['rsi_1h'] return dataframe ``` !!!"
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Example \"Column renaming\" Assuming `inf_tf = '1d'` the resulting columns will be: ``` python 'date', 'open', 'high', 'low', 'close', 'rsi' # from the original dataframe 'date_1d', 'open_1d', 'high_1d', 'low_1d', 'close_1d', 'rsi_1d' # from the informative dataframe ``` ???"
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Example \"Column renaming - 1h\" Assuming `inf_tf = '1h'` the resulting columns will be: ``` python 'date', 'open', 'high', 'low', 'close', 'rsi' # from the original dataframe 'date_1h', 'open_1h', 'high_1h', 'low_1h', 'close_1h', 'rsi_1h' # from the informative dataframe ``` ???"
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "VolumePairlist) - [`get_pair_dataframe(pair, timeframe)`](#get_pair_dataframepair-timeframe) - This is a universal method, which returns either historical data (for backtesting) or cached live data (for the Dry-Run and Live-Run modes)."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "The strategy logic might look something like this: *Scan through the top 10 pairs by volume using the `VolumePairList` every 5 minutes and use a 14 day RSI to enter and exit.* Due to the limited available data, it's very difficult to resample `5m` candles into daily candles for use in a 14 day RSI."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Warning \"Warning about backtesting\" In backtesting, `dp.get_pair_dataframe()` behavior differs depending on where it's called."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Warning \"Warning about backtesting\" The order book is not part of the historic data which means backtesting and hyperopt will not work correctly if this method is used, as the method will return up-to-date values."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Warning \"Warning about backtesting\" This method will always return up-to-date / real-time values."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "As such, usage during backtesting / hyperopt without runmode checks will lead to wrong results, e.g."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Warning \"Warning about backtesting\" This method will always return up-to-date / real-time values."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "As such, usage during backtesting / hyperopt without runmode checks will lead to wrong results, e.g."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Warning \"Warning about backtesting\" Current funding-rate is not part of the historic data which means backtesting and hyperopt will not work correctly if this method is used, as the method will return up-to-date values."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "We recommend to use the historically available funding rate for backtesting (which is automatically downloaded, and is at the frequency of what the exchange provides, usually 1h, 4h or 8h)."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Please switch to `funding_rate` - the `open` alias is deprecated and will be removed in a future version."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "``` python self.dp.send_msg(f\"{metadata['pair']} just got hot!\") # Force send this notification, avoid caching (Please read warning below!) self.dp.send_msg(f\"{metadata['pair']} just got hot!\", always_send=True) ``` Notifications will only be sent in trading modes (Live/Dry-run) - so this method can be called without conditions for backtesting."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "# Full documentation of this method, see below dataframe = merge_informative_pair(dataframe, informative, self.timeframe, inf_tf, ffill=True) # Calculate rsi of the original dataframe (5m timeframe) dataframe['rsi'] = ta.RSI(dataframe, timeperiod=14) # Do other stuff # ..."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Note \"Backtesting / Hyperopt\" Wallets behaves differently depending on the function from which it is called."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Always check if `wallets` is available to avoid failures during backtesting."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "At the top of the file, import the required object: ```python from freqtrade.persistence import Trade ``` The following example queries trades from today for the current pair (`metadata['pair']`)."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Warning Trade history is not available in `populate_*` methods during backtesting or hyperopt, and will result in empty results."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Warning Manually locking pairs is not available during backtesting."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "## Common mistakes when developing strategies ### Looking into the future while backtesting Backtesting analyzes the whole dataframe timerange at once for performance reasons."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "This is a common pain-point, which can cause huge differences between backtesting and dry/live run methods."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Strategies that look into the future will perform well during backtesting, often with incredible profits or winrates, but will fail or perform badly in real conditions."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "This uses data from the future in backtesting, which is not available in dry or live modes."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "- don't use `.iloc[-1]` or any other absolute position in the dataframe within `populate_` functions, as this will be different between dry-run and backtesting."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "As backtesting uses the full dataframe, at any point in the dataframe, the `'mean_volume'` series would include data from the future."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Tip \"Identifying problems\" You should always use the two helper commands [lookahead-analysis](lookahead-analysis.md) and [recursive-analysis](recursive-analysis.md), which can each help you figure out problems with your strategy in different ways."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Please backtest the strategy for your exchange/desired pairs first, then dry run to evaluate carefully, and use at your own risk."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "## Next steps Now you have a perfect strategy you probably want to backtest it."
+  },
+  {
+    "file": "freqtrade-raw-docs-strategy-customization.md",
+    "sentence": "Your next step is to learn [how to use backtesting](backtesting.md)."
+  },
+  {
+    "file": "github-readme-backtrader.md",
+    "sentence": "image:: https://img.shields.io/pypi/v/backtrader.svg :alt: PyPi Version :scale: 100% :target: https://pypi.python.org/pypi/backtrader/ .."
+  },
+  {
+    "file": "github-readme-backtrader.md",
+    "sentence": "For **feedback/questions/...** use the `Community <https://community.backtrader.com>`_ Here a snippet of a Simple Moving Average CrossOver."
+  },
+  {
+    "file": "github-readme-backtrader.md",
+    "sentence": "Features: ========= Live Trading and backtesting platform written in Python."
+  },
+  {
+    "file": "github-readme-backtrader.md",
+    "sentence": "note:: The minimum matplotlib version is ``1.4.1`` An example for *IB* Data Feeds/Trading: - ``IbPy`` doesn't seem to be in PyPi."
+  },
+  {
+    "file": "github-readme-backtrader.md",
+    "sentence": "From source: - Place the *backtrader* directory found in the sources inside your project Version numbering ================= X.Y.Z.I - X: Major version number."
+  },
+  {
+    "file": "github-readme-backtrader.md",
+    "sentence": "Should stay stable unless something big is changed like an overhaul to use ``numpy`` - Y: Minor version number."
+  },
+  {
+    "file": "github-readme-freqtrade.md",
+    "sentence": "It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning."
+  },
+  {
+    "file": "github-readme-freqtrade.md",
+    "sentence": "- [x] **Persistence**: Persistence is achieved through sqlite."
+  },
+  {
+    "file": "github-readme-freqtrade.md",
+    "sentence": "- [x] **Backtesting**: Run a simulation of your buy/sell strategy."
+  },
+  {
+    "file": "github-readme-freqtrade.md",
+    "sentence": "new-config Create new config show-config Show resolved config new-strategy Create new strategy download-data Download backtesting data."
+  },
+  {
+    "file": "github-readme-freqtrade.md",
+    "sentence": "backtesting-show Show past Backtest results backtesting-analysis Backtest Analysis module."
+  },
+  {
+    "file": "github-readme-freqtrade.md",
+    "sentence": "strategy-updater updates outdated strategy files to the current version lookahead-analysis Check for potential look ahead bias."
+  },
+  {
+    "file": "github-readme-freqtrade.md",
+    "sentence": "recursive-analysis Check for potential recursive formula issue."
+  },
+  {
+    "file": "github-readme-freqtrade.md",
+    "sentence": "options: -h, --help show this help message and exit -V, --version show program's version number and exit ``` ### Telegram RPC commands Telegram is not mandatory."
+  },
+  {
+    "file": "github-readme-jesse.md",
+    "sentence": "- \u23f0 **Multiple Timeframes and Symbols**: Backtest and livetrade multiple timeframes and symbols simultaneously without look-ahead bias."
+  },
+  {
+    "file": "github-readme-jesse.md",
+    "sentence": "- \ud83d\udcca **Interactive Trading Charts**: Inspect candles, strategy indicators, horizontal levels, orders, and completed trades across backtest, paper, and live sessions."
+  },
+  {
+    "file": "github-readme-jesse.md",
+    "sentence": "- \ud83e\udde0 **Machine Learning**: A built-in ML pipeline \u2014 gather labelled training data from backtests, train scikit-learn models (binary, multiclass, or regression), and deploy predictions directly inside your strategies."
+  },
+  {
+    "file": "github-readme-jesse.md",
+    "sentence": "- \ud83e\uddea **Research API and Jupyter**: Run backtests, optimization, significance tests, Monte Carlo analysis, candle workflows, and machine learning from Python scripts or notebooks."
+  },
+  {
+    "file": "github-readme-jesse.md",
+    "sentence": "![Backtest](https://raw.githubusercontent.com/jesse-ai/storage/refs/heads/master/backtest.gif) ### Interactive Trading Charts Inspect your strategy where its decisions happened."
+  },
+  {
+    "file": "github-readme-jesse.md",
+    "sentence": "The same charting workflow is available for backtests and for running or completed paper/live sessions."
+  },
+  {
+    "file": "github-readme-jesse.md",
+    "sentence": "Run batch backtests, compare across timeframes, symbols, and strategies."
+  },
+  {
+    "file": "github-readme-jesse.md",
+    "sentence": "Through Jesse MCP, an assistant can help you write and improve strategies, manage candle data, run and inspect backtests, perform rule significance tests, optimize parameters, run Monte Carlo simulations, and link you directly to the saved results in the Jesse dashboard."
+  },
+  {
+    "file": "github-readme-jesse.md",
+    "sentence": "For example, you can ask: > Check whether my new entry rule is statistically significant, backtest it, optimize the promising parameters, and run a candles-based Monte Carlo analysis before we consider paper trading."
+  },
+  {
+    "file": "github-readme-jesse.md",
+    "sentence": "**Gather data** \u2014 run a backtest in gather mode; call `record_features({...})` at each signal bar and `record_label(name, value)` when the outcome is known."
+  },
+  {
+    "file": "github-readme-jesse.md",
+    "sentence": "Jesse's Research API exposes candle management, backtesting, optimization, Rule Significance Testing, Monte Carlo analysis, indicators, and machine learning to ordinary Python scripts and Jupyter notebooks."
+  },
+  {
+    "file": "github-readme-jesse.md",
+    "sentence": "The goal is to make training, evaluating, and deploying reinforcement-learning agents feel as integrated as Jesse's existing backtesting, optimization, Monte Carlo, and machine-learning workflows."
+  },
+  {
+    "file": "github-readme-vectorbt.md",
+    "sentence": "Inspect trades, fees, drawdowns, and portfolio performance, then explore the results with interactive charts."
+  },
+  {
+    "file": "github-readme-vectorbt.md",
+    "sentence": "## Example apps ### [Candlestick Patterns](https://github.com/polakowo/vectorbt/blob/master/apps/candlestick-patterns/) Explore candlestick patterns interactively and backtest their signals with VectorBT."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "We present a research paper documenting a simple trend-following system on stocks which uses a new all-time high as entry condition and ATR as a trailing stop."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "This characteristic creates improved risk/return characteristics of trend-following systems when compared to a diversified buy&hold approach."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "Robustness checks Assessed The underlying all-time-high/ATR-stop strategy was tested using ATR stops from 8 to 12 in 0.5 increments (p."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "Source-paper performanceBacktest period1983 \u2013 2004 Indicative performance 19.3% per annum, data from table on page 13 Estimated volatility 15.6% data from table on page 12 Maximum drawdown -33.74% data from table on page 13 Sharpe ratio 1.24 Simple trading strategy The investment universe consists of US-listed companies."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "A 10-period average true range trailing stop is used as an exit signal."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "Very little research, however, has been published regarding trend following strategies applied to stocks."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "Is it reasonable to assume that trend following works on futures but not stocks?"
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "We decided to put a long only trend following strategy to the test by running it against a comprehensive database of U.S."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "Conventionally, trend rules are based on moving averages (MAs) of prices rather than returns, which obscures how much weight is assigned to different historical time periods."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "This leads to surprising and useful insights about popular trend rules, for example that some trend rules have inverted information decay (i.e., distant returns have more weight than recent ones) or hidden mean-reversion patterns."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "This opens the possibility for improving the trend rule by analyzing the added value of the mean reversion part."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "Haghani, McBride: Return Chasing and Trend Following: Superficial Similarities Mask Fundamental Differences http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2718428 Abstract: Return chasing is often cited as one of the primary behavioral foibles of investors, resulting in sub-par returns."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "It then describes how return chasing so defined differs from trend following and how return chasing explains the shortfall of the returns of active, market timing investors compared to static asset allocation strategies."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "Finally, it shows that if the trading flows of return chasers are large enough to impact prices, then return chasing provides a powerful explanation of the positive returns earned by trend following strategies, which alternative descriptions of return chasing, such as it is trend following but with too long of a horizon, do not provide."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "Sepp: Trend-Following Strategies for Tail-Risk Hedging and Alpha Generation https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3167787 Abstract: Because of the adaptive nature of position sizing, trend-following strategies can generate the positive skewness of their returns, when infrequent large gains compensate overall for frequent small losses."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "The positive convexity along with the overall positive performance make trend-following strategies viable diversifiers and alpha generators for both long-only portfolios and alternatives investments."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "Finally, I discuss an interesting connection between trend-following and stock momentum strategies and illustrate the benefits of allocation to trend-followers within alternatives portfolio."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "Since individual investors contribute about 80% of the trading volume in China, the trend factor captures well the resulting important price and volume trends, and has a monthly Sharpe ratio of 0.48, much greater than those of the market (0.11), size (0.19) and value (0.28)."
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "https://ssrn.com/abstract=5084316 Abstract: This paper revisits and extends the results presented in 2005 by Wilcox and Crittenden in a white paper titled Does Trend Following Work on Stocks?"
+  },
+  {
+    "file": "quantpedia-trend-following.md",
+    "sentence": "In the second part of this study, we backtest a long-only trend-following portfolio specifically aimed at capturing outlier returns in individual stocks."
+  }
+]
