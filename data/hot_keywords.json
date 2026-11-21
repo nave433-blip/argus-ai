@@ -116,6 +116,42 @@
   {
    "keyword": "performance",
    "weight": 1
+  },
+  {
+   "keyword": "inflation",
+   "weight": 2
+  },
+  {
+   "keyword": "consumer spending",
+   "weight": 2
+  },
+  {
+   "keyword": "retail sales",
+   "weight": 2
+  },
+  {
+   "keyword": "exchange rate",
+   "weight": 2
+  },
+  {
+   "keyword": "buying power",
+   "weight": 2
+  },
+  {
+   "keyword": "supply and demand",
+   "weight": 2
+  },
+  {
+   "keyword": "recession",
+   "weight": 2
+  },
+  {
+   "keyword": "interest rates",
+   "weight": 2
+  },
+  {
+   "keyword": "dollar strength",
+   "weight": 2
   }
  ],
  "notes": "Evan's hot/buzz keywords (2026-11-21). Pages and URLs hitting these take PRIORITY in scraping. 'trains' is an alias of 'trends': Evan dictated the list by voice and 'trains' is the transcription of 'trends' \u2014 both spellings are kept so the spoken and written forms both fire. Matching also covers plurals/-ing/-ed forms, misspellings (edit distance), phonetic sound-alikes (sell ~ cell), and encoded forms (leet s3ll, reversed, base64). Keywords change priority, never permission: public pages only, robots respected.",
@@ -142,6 +178,17 @@
    "open source",
    "trading bot",
    "performance"
+  ],
+  "macro": [
+   "inflation",
+   "consumer spending",
+   "retail sales",
+   "exchange rate",
+   "buying power",
+   "supply and demand",
+   "recession",
+   "interest rates",
+   "dollar strength"
   ]
  }
 }
