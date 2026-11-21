@@ -1,1 +1,147 @@
-{"hot_threshold":5.0,"keywords":[{"aliases":["trains"],"keyword":"trends","note":"'trains' = voice-transcription alias of 'trends' (Evan's spoken list); both kept.","weight":3},{"keyword":"cryptocurrency","weight":3},{"keyword":"crash","weight":3},{"keyword":"swell","weight":2},{"keyword":"dip","weight":2},{"keyword":"buy","weight":2},{"keyword":"sell","weight":2},{"keyword":"invest","weight":2}],"notes":"Evan's hot/buzz keywords (2026-11-21). Pages and URLs hitting these take PRIORITY in scraping. 'trains' is an alias of 'trends': Evan dictated the list by voice and 'trains' is the transcription of 'trends' — both spellings are kept so the spoken and written forms both fire. Matching also covers plurals/-ing/-ed forms, misspellings (edit distance), phonetic sound-alikes (sell ~ cell), and encoded forms (leet s3ll, reversed, base64). Keywords change priority, never permission: public pages only, robots respected.","version":1}
+{
+ "hot_threshold": 5.0,
+ "keywords": [
+  {
+   "aliases": [
+    "trains"
+   ],
+   "keyword": "trends",
+   "note": "'trains' = voice-transcription alias of 'trends' (Evan's spoken list); both kept.",
+   "weight": 3
+  },
+  {
+   "keyword": "cryptocurrency",
+   "weight": 3
+  },
+  {
+   "keyword": "crash",
+   "weight": 3
+  },
+  {
+   "keyword": "swell",
+   "weight": 2
+  },
+  {
+   "keyword": "dip",
+   "weight": 2
+  },
+  {
+   "keyword": "buy",
+   "weight": 2
+  },
+  {
+   "keyword": "sell",
+   "weight": 2
+  },
+  {
+   "keyword": "invest",
+   "weight": 2
+  },
+  {
+   "keyword": "algorithm",
+   "weight": 3
+  },
+  {
+   "keyword": "strategy",
+   "weight": 3
+  },
+  {
+   "keyword": "backtest",
+   "weight": 3
+  },
+  {
+   "keyword": "optimization",
+   "weight": 2
+  },
+  {
+   "keyword": "machine learning",
+   "weight": 2
+  },
+  {
+   "keyword": "neural network",
+   "weight": 2
+  },
+  {
+   "keyword": "sharpe",
+   "weight": 2
+  },
+  {
+   "keyword": "alpha",
+   "weight": 2
+  },
+  {
+   "keyword": "edge",
+   "weight": 1
+  },
+  {
+   "keyword": "indicator",
+   "weight": 2
+  },
+  {
+   "keyword": "quant",
+   "weight": 2
+  },
+  {
+   "keyword": "profit factor",
+   "weight": 2
+  },
+  {
+   "keyword": "win rate",
+   "weight": 2
+  },
+  {
+   "keyword": "risk management",
+   "weight": 2
+  },
+  {
+   "keyword": "walk forward",
+   "weight": 2
+  },
+  {
+   "keyword": "overfitting",
+   "weight": 1
+  },
+  {
+   "keyword": "github",
+   "weight": 1
+  },
+  {
+   "keyword": "open source",
+   "weight": 1
+  },
+  {
+   "keyword": "trading bot",
+   "weight": 3
+  },
+  {
+   "keyword": "performance",
+   "weight": 1
+  }
+ ],
+ "notes": "Evan's hot/buzz keywords (2026-11-21). Pages and URLs hitting these take PRIORITY in scraping. 'trains' is an alias of 'trends': Evan dictated the list by voice and 'trains' is the transcription of 'trends' \u2014 both spellings are kept so the spoken and written forms both fire. Matching also covers plurals/-ing/-ed forms, misspellings (edit distance), phonetic sound-alikes (sell ~ cell), and encoded forms (leet s3ll, reversed, base64). Keywords change priority, never permission: public pages only, robots respected.",
+ "version": 1,
+ "categories": {
+  "evolution": [
+   "algorithm",
+   "strategy",
+   "backtest",
+   "optimization",
+   "machine learning",
+   "neural network",
+   "sharpe",
+   "alpha",
+   "edge",
+   "indicator",
+   "quant",
+   "profit factor",
+   "win rate",
+   "risk management",
+   "walk forward",
+   "overfitting",
+   "github",
+   "open source",
+   "trading bot",
+   "performance"
+  ]
+ }
+}
