@@ -1,0 +1,382 @@
+{
+  "sources": [
+    {
+      "label": "Binance US API docs",
+      "url": "https://docs.binance.us/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199828,
+      "text_chars": 74936
+    },
+    {
+      "label": "Binance Vision (public data)",
+      "url": "https://data.binance.vision/",
+      "ok": true,
+      "status": 200,
+      "bytes": 2712,
+      "text_chars": 72
+    },
+    {
+      "label": "Binance futures docs \u2014 funding rate history",
+      "url": "https://developers.binance.com/docs/derivatives/usds-margined-futures/market-data/rest-api/Get-Funding-Rate-History",
+      "ok": true,
+      "status": 200,
+      "bytes": 0,
+      "text_chars": 0
+    },
+    {
+      "label": "alternative.me Fear & Greed",
+      "url": "https://alternative.me/crypto/fear-and-greed-index/",
+      "ok": true,
+      "status": 200,
+      "bytes": 31608,
+      "text_chars": 10363
+    },
+    {
+      "label": "mempool.space",
+      "url": "https://mempool.space/",
+      "ok": false,
+      "status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "label": "mempool.space API docs",
+      "url": "https://mempool.space/docs/api/rest",
+      "ok": false,
+      "status": null,
+      "error": "The read operation timed out"
+    },
+    {
+      "label": "CoinDesk",
+      "url": "https://www.coindesk.com/",
+      "ok": false,
+      "status": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "label": "CoinTelegraph",
+      "url": "https://cointelegraph.com/",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "TradingView features",
+      "url": "https://www.tradingview.com/features/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199927,
+      "text_chars": 5925
+    },
+    {
+      "label": "3Commas",
+      "url": "https://3commas.io/",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "SEC \u2014 crypto assets topic",
+      "url": "https://www.sec.gov/securities-topics/crypto-assets",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "CFTC \u2014 virtual currency risks",
+      "url": "https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/understand_risks_of_virtual_currency.html",
+      "ok": true,
+      "status": 200,
+      "bytes": 41256,
+      "text_chars": 8009
+    },
+    {
+      "label": "Kraken API docs",
+      "url": "https://docs.kraken.com/",
+      "ok": true,
+      "status": 200,
+      "bytes": 186036,
+      "text_chars": 68791
+    },
+    {
+      "label": "Coinbase developer docs",
+      "url": "https://docs.cdp.coinbase.com/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 46269
+    }
+  ],
+  "endpoints": [
+    {
+      "endpoint": "https://api.binance.us/api/v3/order",
+      "source_url": "https://docs.binance.us/",
+      "context": "A\"</span> <span class=\"nt\">-X</span> POST <span class=\"s1\">'https://api.binance.us/api/v3/order'</span> <span class=\"nt\">-d</span> <span cla"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/openOrders?symbol=BTCUSDT&amp;timestamp=1499827319559&amp;signature=c8db56825ae71d6d79447849e617115f4a920fa2acdcab2b053c4b2838bd6b71",
+      "source_url": "https://docs.binance.us/",
+      "context": "8A\"</span> <span class=\"nt\">-X</span> GET <span class=\"s1\">'https://api.binance.us/api/v3/openOrders?symbol=BTCUSDT&amp;timestamp=1499827319"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/order?symbol=LTCBTC&amp;side=BUY&amp;type=LIMIT&amp;timeInForce=GTC",
+      "source_url": "https://docs.binance.us/",
+      "context": "A\"</span> <span class=\"nt\">-X</span> POST <span class=\"s1\">'https://api.binance.us/api/v3/order?symbol=LTCBTC&amp;side=BUY&amp;type=LIMIT&am"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/exchangeInfo?symbol=BTCUSD",
+      "source_url": "https://docs.binance.us/",
+      "context": "<span class=\"s2\">\"X-MBX-SBE: 3:5\"</span> <span class=\"s1\">'https://api.binance.us/api/v3/exchangeInfo?symbol=BTCUSD'</span> </code></pre></d"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/ping",
+      "source_url": "https://docs.binance.us/",
+      "context": "ss=\"highlight shell tab-shell\"><code>curl <span class=\"s1\">'https://api.binance.us/api/v3/ping'</span> </code></pre></div><div class=\"highli"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/time",
+      "source_url": "https://docs.binance.us/",
+      "context": "ss=\"highlight shell tab-shell\"><code>curl <span class=\"s1\">'https://api.binance.us/api/v3/time'</span> </code></pre></div><div class=\"highli"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/exchangeInfo",
+      "source_url": "https://docs.binance.us/",
+      "context": "ss=\"highlight shell tab-shell\"><code>curl <span class=\"s1\">'https://api.binance.us/api/v3/exchangeInfo'</span> </code></pre></div><div class"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/exchangeInfo?symbol=BNBBTC",
+      "source_url": "https://docs.binance.us/",
+      "context": "quot;</td> </tr> <tr> <td>symbol</td> <td>curl -X GET &quot;https://api.binance.us/api/v3/exchangeInfo?symbol=BNBBTC&quot;</td> </tr> <tr> <"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/exchangeInfo?symbols=%5B%22BNBBTC%22,%22BTCUSDT%22%5D",
+      "source_url": "https://docs.binance.us/",
+      "context": "tr> <tr> <td>symbols</td> <td>curl -X GET curl -X GET &quot;https://api.binance.us/api/v3/exchangeInfo?symbols=%5B%22BNBBTC%22,%22BTCUSDT%22"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/exchangeInfo?symbols=[",
+      "source_url": "https://docs.binance.us/",
+      "context": "BTC%22,%22BTCUSDT%22%5D&quot;<br/> or <br/>curl -g GET &#39;https://api.binance.us/api/v3/exchangeInfo?symbols=[&quot;BTCUSDT&quot;,&quot;BN"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/exchangeInfo?permissions=SPOT",
+      "source_url": "https://docs.binance.us/",
+      "context": "</td> </tr> <tr> <td>permissions</td> <td>curl -X GET &quot;https://api.binance.us/api/v3/exchangeInfo?permissions=SPOT&quot;</td> </tr> <tr"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/exchangeInfo?showPermissionSets=false",
+      "source_url": "https://docs.binance.us/",
+      "context": "/tr> <tr> <td>showPermissionSets</td> <td>curl -X GET &quot;https://api.binance.us/api/v3/exchangeInfo?showPermissionSets=false&quot;</td> <"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/trades?symbol=LTCBTC",
+      "source_url": "https://docs.binance.us/",
+      "context": "\">-X</span> <span class=\"s2\">\"GET\"</span> <span class=\"s2\">\"https://api.binance.us/api/v3/trades?symbol=LTCBTC\"</span> </code></pre></div><d"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/historicalTrades?symbol=&lt;symbol&gt",
+      "source_url": "https://docs.binance.us/",
+      "context": "\">-X</span> <span class=\"s2\">\"GET\"</span> <span class=\"s2\">\"https://api.binance.us/api/v3/historicalTrades?symbol=&lt;symbol&gt;\"</span> </c"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/aggTrades?symbol=LTCBTC",
+      "source_url": "https://docs.binance.us/",
+      "context": "\">-X</span> <span class=\"s2\">\"GET\"</span> <span class=\"s2\">\"https://api.binance.us/api/v3/aggTrades?symbol=LTCBTC\"</span> </code></pre></div"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/depth?symbol=LTCBTC",
+      "source_url": "https://docs.binance.us/",
+      "context": "\">-X</span> <span class=\"s2\">\"GET\"</span> <span class=\"s2\">\"https://api.binance.us/api/v3/depth?symbol=LTCBTC\"</span> </code></pre></div><di"
+    },
+    {
+      "endpoint": "/api/v3/order",
+      "source_url": "https://docs.binance.us/",
+      "context": "8bd6b71</span> <span class=\"c\"># Request signed endpoints, /api/v3/order as an example</span> curl <span class=\"nt\">-H</span> <span"
+    },
+    {
+      "endpoint": "/api/v3/openOrders",
+      "source_url": "https://docs.binance.us/",
+      "context": "\">uri_path</span> <span class=\"o\">=</span> <span class=\"s\">\"/api/v3/openOrders\"</span> <span class=\"n\">data</span> <span class=\"o\">=</span"
+    },
+    {
+      "endpoint": "/api/v3/order/cancelReplace",
+      "source_url": "https://docs.binance.us/",
+      "context": "is not supported for this symbol.&quot;</td> <td><code>POST /api/v3/order/cancelReplace</code> is not enabled for the symbol.</td> </tr> <tr"
+    },
+    {
+      "endpoint": "/api/v3/userDataStream",
+      "source_url": "https://docs.binance.us/",
+      "context": "tired: <code>POST</code>, <code>PUT</code> and <code>DELETE /api/v3/userDataStream</code>; WebSocket API <code>userDataStream.start</code>, "
+    },
+    {
+      "endpoint": "/api/v3/depth",
+      "source_url": "https://docs.binance.us/",
+      "context": "ALT</code>, <code>BREAK</code>) has been added to <code>GET /api/v3/depth</code>, <code>/api/v3/ticker/price</code>, <code>/api/v3/ti"
+    },
+    {
+      "endpoint": "/api/v3/ticker/price",
+      "source_url": "https://docs.binance.us/",
+      "context": "e>) has been added to <code>GET /api/v3/depth</code>, <code>/api/v3/ticker/price</code>, <code>/api/v3/ticker/bookTicker</code>, and <code>/"
+    },
+    {
+      "endpoint": "/api/v3/ticker/bookTicker",
+      "source_url": "https://docs.binance.us/",
+      "context": "i/v3/depth</code>, <code>/api/v3/ticker/price</code>, <code>/api/v3/ticker/bookTicker</code>, and <code>/api/v3/ticker/24hr</code>. If a sin"
+    },
+    {
+      "endpoint": "/api/v3/ticker/24hr",
+      "source_url": "https://docs.binance.us/",
+      "context": "e</code>, <code>/api/v3/ticker/bookTicker</code>, and <code>/api/v3/ticker/24hr</code>. If a single symbol is specified and its status does"
+    },
+    {
+      "endpoint": "/api/v3/exchangeInfo",
+      "source_url": "https://docs.binance.us/",
+      "context": "urned <code>-1128</code>).</li> <li>The weight of <code>GET /api/v3/exchangeInfo</code> has increased from 10 to 20 (REST and WebSocket API)"
+    },
+    {
+      "endpoint": "/api/v3/account",
+      "source_url": "https://docs.binance.us/",
+      "context": "from 10 to 20 (REST and WebSocket API).</li> <li><code>GET /api/v3/account</code> response now includes a <code>uid</code> field (your"
+    },
+    {
+      "endpoint": "/api/v3/klines",
+      "source_url": "https://docs.binance.us/",
+      "context": "d</code> field (your User ID / account).</li> <li><code>GET /api/v3/klines</code> has a new optional parameter <code>timeZone</code> ("
+    },
+    {
+      "endpoint": "/api/v3/avgPrice",
+      "source_url": "https://docs.binance.us/",
+      "context": "<code>timeZone</code> (default 0, UTC).</li> <li><code>GET /api/v3/avgPrice</code> response now includes a <code>closeTime</code> field"
+    },
+    {
+      "endpoint": "/api/v3/historicalTrades",
+      "source_url": "https://docs.binance.us/",
+      "context": "> values are clamped to the valid range.</li> <li><code>GET /api/v3/historicalTrades</code> no longer requires an API key \u2014 its security typ"
+    },
+    {
+      "endpoint": "/api/v3/account/commission",
+      "source_url": "https://docs.binance.us/",
+      "context": "der is no longer necessary.</li> <li>New endpoint <code>GET /api/v3/account/commission</code> returns current account commission rates (stan"
+    },
+    {
+      "endpoint": "/api/v3/ticker/tradingDay",
+      "source_url": "https://docs.binance.us/",
+      "context": "ode>symbol</code> required.</li> <li>New endpoint <code>GET /api/v3/ticker/tradingDay</code> returns price change statistics for a trading d"
+    },
+    {
+      "endpoint": "/api/v3/order/oco",
+      "source_url": "https://docs.binance.us/",
+      "context": "xpires. Affects <code>POST /api/v3/order</code>, <code>POST /api/v3/order/oco</code>, <code>POST /api/v3/order/cancelReplace</code>.</li>"
+    },
+    {
+      "endpoint": "/api/v3/trades",
+      "source_url": "https://docs.binance.us/",
+      "context": "er placement and cancellation endpoints.</li> <li><code>GET /api/v3/trades</code> and <code>GET /api/v3/historicalTrades</code> weight"
+    },
+    {
+      "endpoint": "/api/v3/aggTrades",
+      "source_url": "https://docs.binance.us/",
+      "context": "oricalTrades</code> weight raised to 25.</li> <li><code>GET /api/v3/aggTrades</code> weight raised to 4.</li> <li><code>GET /api/v3/myTra"
+    },
+    {
+      "endpoint": "/api/v3/myTrades",
+      "source_url": "https://docs.binance.us/",
+      "context": "/v3/aggTrades</code> weight raised to 4.</li> <li><code>GET /api/v3/myTrades</code> weight is now 20 with the <code>symbol</code>, or 5"
+    },
+    {
+      "endpoint": "/api/v3/myFilters",
+      "source_url": "https://docs.binance.us/",
+      "context": "ed by <code>exchangeInfo</code> \u2014 retrieve it via <code>GET /api/v3/myFilters</code>.</li> <li>New endpoint <code>GET /api/v3/myFilters</"
+    },
+    {
+      "endpoint": "/api/v3/allOrderList",
+      "source_url": "https://docs.binance.us/",
+      "context": "/li> <li><code>GET /api/v3/klines</code></li> <li><code>GET /api/v3/allOrderList</code></li> <li><code>GET /api/v3/allOrders</code></li> <li"
+    },
+    {
+      "endpoint": "/api/v3/allOrders",
+      "source_url": "https://docs.binance.us/",
+      "context": "li><code>GET /api/v3/allOrderList</code></li> <li><code>GET /api/v3/allOrders</code></li> <li><code>GET /api/v3/myTrades</code></li> </ul"
+    },
+    {
+      "endpoint": "/api/v3/myPreventedMatches",
+      "source_url": "https://docs.binance.us/",
+      "context": "red.</p></li> <li><p>New endpoints:</p> <ul> <li><code>GET /api/v3/myPreventedMatches</code> - This queries the orders that expired due to S"
+    },
+    {
+      "endpoint": "/api/v3/acccount",
+      "source_url": "https://docs.binance.us/",
+      "context": "ints.</li> <li>commissionRates field will appear in the GET /api/v3/acccount response.</li> </ul> <p><strong>USER DATA STREAM</strong><"
+    },
+    {
+      "endpoint": "/api/v3/order/test",
+      "source_url": "https://docs.binance.us/",
+      "context": "</strong> Updated three endpoints: POST /api/v3/order, POST /api/v3/order/test, POST /api/v3/order/oco, and added one new filter: TRAILING"
+    },
+    {
+      "endpoint": "/api/v3/ticker",
+      "source_url": "https://docs.binance.us/",
+      "context": "> Added a new optional parameter type in two endpoints: GET /api/v3/ticker and GET /api/v3/ticker/24hr. Also removed Individual Symbol"
+    },
+    {
+      "endpoint": "/api/v3/ping",
+      "source_url": "https://docs.binance.us/",
+      "context": "hlight plaintext\"><code>{} </code></pre></div> <p><code>GET /api/v3/ping</code></p> <p>Use this endpoint to test connectivity to th"
+    },
+    {
+      "endpoint": "/api/v3/time",
+      "source_url": "https://docs.binance.us/",
+      "context": "> <span class=\"p\">}</span> </code></pre></div> <p><code>GET /api/v3/time</code></p> <p>Use this endpoint to get the exchange\u2019s serv"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/openOrders?symbol=BTCUSDT&timestamp=1499827319559&signature=c8db56825ae71d6d79447849e617115f4a920fa2acdcab2b053c4b2838bd6b71",
+      "source_url": "https://docs.binance.us/",
+      "context": "NHk4HlWFsOr6aKE2zvsw0MuIgwCIPy6utIco14y7Ju91duEh8A\" -X GET 'https://api.binance.us/api/v3/openOrders?symbol=BTCUSDT&timestamp=1499827319559&"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/order?symbol=LTCBTC&side=BUY&type=LIMIT&timeInForce=GTC",
+      "source_url": "https://docs.binance.us/",
+      "context": "Hk4HlWFsOr6aKE2zvsw0MuIgwCIPy6utIco14y7Ju91duEh8A\" -X POST 'https://api.binance.us/api/v3/order?symbol=LTCBTC&side=BUY&type=LIMIT&timeInForc"
+    },
+    {
+      "endpoint": "https://api.binance.us/api/v3/historicalTrades?symbol=",
+      "source_url": "https://docs.binance.us/",
+      "context": "Source: Memory Get Historical Trades Example curl -X \"GET\" \"https://api.binance.us/api/v3/historicalTrades?symbol=<symbol>\" import requests "
+    },
+    {
+      "endpoint": "https://api.alternative.me/fng/",
+      "source_url": "https://alternative.me/crypto/fear-and-greed-index/",
+      "context": "</div> <div class=\"endpoint-item\">Example URL: <a href=\"https://api.alternative.me/fng/\">https://api.alternative.me/fng/</a></div> <div clas"
+    },
+    {
+      "endpoint": "https://api.alternative.me/fng/?limit=10",
+      "source_url": "https://alternative.me/crypto/fear-and-greed-index/",
+      "context": "</div> <div class=\"endpoint-item\">Example URL: <a href=\"https://api.alternative.me/fng/?limit=10\">https://api.alternative.me/fng/?limit=10</"
+    },
+    {
+      "endpoint": "https://api.alternative.me/fng/?limit=10&format=csv",
+      "source_url": "https://alternative.me/crypto/fear-and-greed-index/",
+      "context": "</div> <div class=\"endpoint-item\">Example URL: <a href=\"https://api.alternative.me/fng/?limit=10&format=csv\">https://api.alternative.me/fng/"
+    },
+    {
+      "endpoint": "https://api.alternative.me/fng/?limit=10&format=csv&date_format=us",
+      "source_url": "https://alternative.me/crypto/fear-and-greed-index/",
+      "context": "</div> <div class=\"endpoint-item\">Example URL: <a href=\"https://api.alternative.me/fng/?limit=10&format=csv&date_format=us\">https://api.alte"
+    },
+    {
+      "endpoint": "https://api.alternative.me/fng/?limit=2",
+      "source_url": "https://alternative.me/crypto/fear-and-greed-index/",
+      "context": "<div class=\"endpoint-example block\"> <pre> <b>GET</b> https://api.alternative.me/fng/?limit=2 <b>Response</b> { \"name\": \"Fear and Greed Inde"
+    },
+    {
+      "endpoint": "https://api.kraken.com/0/private/AddOrder",
+      "source_url": "https://docs.kraken.com/",
+      "context": "pan><span style=\"color:#0A3069;--shiki-dark:#CE9178\"> &quot;https://api.kraken.com/0/private/AddOrder&quot;</span><span style=\"color:#CF222E"
+    },
+    {
+      "endpoint": "https://api.kraken.com/0/private/AddOrder\\",
+      "source_url": "https://docs.kraken.com/",
+      "context": "e:{color:`#0A3069`,\\\"--shiki-dark\\\":`#CE9178`},children:` \\\"https://api.kraken.com/0/private/AddOrder\\\"`}),_jsx(_components.span,{style:{col"
+    }
+  ]
+}
