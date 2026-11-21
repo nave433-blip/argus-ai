@@ -1,0 +1,6 @@
+Example phishing message kept for risk-scoring reference:
+
+URGENT: act now, this is your final notice. Your account shows an
+investment opportunity with guaranteed returns — wire transfer the funds
+immediately. Do not tell anyone about this message, keep this secret.
+Send your password and seed phrase to verify before it expires today.

@@ -1,0 +1,23 @@
+{
+  "project": "ARGUS-AI",
+  "version": "0.4",
+  "stack": {
+    "go": ["crawler", "scheduler", "worker_pool"],
+    "python": ["fastapi", "embeddings", "entity_extraction", "classification", "hybrid_search"],
+    "storage": ["sqlite", "qdrant", "neo4j"]
+  },
+  "features": [
+    "document_ingestion",
+    "media_ingestion",
+    "document_chunking",
+    "vector_embeddings",
+    "hybrid_keyword_search",
+    "semantic_search",
+    "knowledge_graph",
+    "entity_extraction",
+    "risk_scoring",
+    "aes128_configuration"
+  ],
+  "agents": ["SCOUT", "ORACLE", "ATLAS", "GUARDIAN", "NEXUS"],
+  "roadmap": ["ollama_integration", "graph_rag", "dashboard", "distributed_workers"]
+}
