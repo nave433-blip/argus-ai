@@ -21,7 +21,7 @@ import (
 	"time"
 )
 
-const userAgent = "ARGUS-AI GoCrawler/0.4 (personal research; public pages only)"
+const userAgent = "ARGUS-AI GoCrawler/0.5 (personal research; public pages only)"
 
 type Job struct {
 	URL string `json:"url"`

@@ -28,6 +28,7 @@ def run_pipeline(inbox: str | Path, store: Store,
             store.add_relation(src, dst, rel, doc.doc_id)
         cls = classify(doc.text)
         risk = risk_score(doc.text)
+        store.add_assessment(doc.doc_id, cls, risk)
         report.append({
             "doc_id": doc.doc_id, "kind": doc.kind, "chunks": len(chunks),
             "entities": entities, "classification": cls, "risk": risk,

@@ -12,7 +12,7 @@ import urllib.request
 import urllib.robotparser
 from pathlib import Path
 
-UA = "ARGUS-AI Scout/0.4 (personal research; public pages only)"
+UA = "ARGUS-AI Scout/0.5 (personal research; public pages only)"
 _last_fetch = 0.0
 
 

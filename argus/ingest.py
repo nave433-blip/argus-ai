@@ -4,8 +4,10 @@ Supported natively: .txt, .md. PDFs go through a pluggable extractor
 interface — the default StdlibPdfTextExtractor pulls the text layer from
 uncompressed/simple PDFs via zlib stream decompression; register a richer
 extractor (e.g. pypdf) via `register_extractor` without touching the core.
-Media files (.mp3/.mp4/.wav/.png/.jpg) are registered as media documents
-with metadata only — transcription/OCR is a pluggable extractor too.
+Media files (.mp3/.mp4/.wav/.png/.jpg/.gif) are registered as media
+documents with REAL extracted metadata (argus/media.py: image
+dimensions, WAV duration/channels, size + SHA-256 for everything) —
+transcription/OCR stays a pluggable extractor slot, honestly labeled.
 """
 from __future__ import annotations
 
@@ -15,7 +17,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Callable
 
-MEDIA_EXTS = {".mp3", ".mp4", ".wav", ".m4a", ".png", ".jpg", ".jpeg"}
+MEDIA_EXTS = {".mp3", ".mp4", ".wav", ".m4a", ".png", ".jpg", ".jpeg", ".gif"}
 
 
 @dataclass
@@ -85,9 +87,11 @@ def load_document(path: Path) -> Document:
             text = StdlibPdfTextExtractor().extract(path)
         return Document(doc_id, str(path), "pdf", text)
     if ext in MEDIA_EXTS:
+        from .media import extract_media_metadata
+        meta = extract_media_metadata(path)
         return Document(doc_id, str(path), "media", "",
-                        {"media": True, "bytes": path.stat().st_size,
-                         "note": "media registered; transcription/OCR extractor not wired"})
+                        {"media": True, "bytes": meta["size_bytes"],
+                         "media_metadata": meta})
     raise ValueError(f"unsupported file type: {ext}")
 
 

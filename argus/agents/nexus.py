@@ -22,16 +22,18 @@ from .scout import discover_inbox
 
 
 class Nexus:
-    def __init__(self, store: Store, embedder=None):
+    def __init__(self, store: Store, embedder=None, generator=None):
         self.store = store
         self.embedder = embedder or HashingEmbedder()
         self.atlas = Atlas(store)
         self.guardian = Guardian()
+        self._generator = generator  # None -> ORACLE builds OllamaGenerator
         self._oracle: Oracle | None = None
 
     def _get_oracle(self) -> Oracle:
         if self._oracle is None:
-            self._oracle = Oracle(HybridSearch(self.store, self.embedder))
+            self._oracle = Oracle(HybridSearch(self.store, self.embedder),
+                                  store=self.store, generator=self._generator)
         return self._oracle
 
     def route(self, task: dict) -> dict:

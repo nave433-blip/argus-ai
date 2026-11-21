@@ -1,8 +1,9 @@
 """API layer: FastAPI app when fastapi is installed; otherwise a stdlib
 http.server fallback exposing the same routes. Import-safe either way.
 
-Routes: GET /health, POST /ingest {inbox}, GET /search?q=, GET /ask?q=,
-GET /graph, POST /assess {text}.
+Routes: GET /health, GET /dashboard (static HTML), GET /stats,
+POST /ingest {inbox}, GET /search?q=, GET /ask?q=, GET /graph,
+POST /assess {text}.
 """
 from __future__ import annotations
 
@@ -10,21 +11,30 @@ import json
 from pathlib import Path
 
 from .agents.nexus import Nexus
+from .dashboard import DASHBOARD_HTML
 from .store import Store
 
 DB_PATH = "argus.db"
 INBOX = "data/inbox"
+VERSION = "0.5"
 
 
 def make_nexus() -> Nexus:
     return Nexus(Store(DB_PATH))
 
 
+def stats_payload(nexus: Nexus) -> dict:
+    stats = nexus.store.stats()
+    stats["version"] = VERSION
+    return stats
+
+
 try:
     from fastapi import FastAPI
+    from fastapi.responses import HTMLResponse
     from pydantic import BaseModel
 
-    app = FastAPI(title="ARGUS-AI", version="0.4")
+    app = FastAPI(title="ARGUS-AI", version=VERSION)
     _nexus = make_nexus()
 
     class IngestBody(BaseModel):
@@ -35,7 +45,15 @@ try:
 
     @app.get("/health")
     def health():
-        return {"ok": True, "version": "0.4", "engine": "fastapi"}
+        return {"ok": True, "version": VERSION, "engine": "fastapi"}
+
+    @app.get("/dashboard", response_class=HTMLResponse)
+    def dashboard():
+        return DASHBOARD_HTML
+
+    @app.get("/stats")
+    def stats():
+        return stats_payload(_nexus)
 
     @app.post("/ingest")
     def ingest(body: IngestBody):
@@ -79,11 +97,23 @@ except ImportError:  # stdlib fallback — same routes, no dependencies
                 self.end_headers()
                 self.wfile.write(body)
 
+            def _send_html(self, html: str):
+                body = html.encode()
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.send_header("Content-Length", str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+
             def do_GET(self):
                 u = urlparse(self.path)
                 qs = parse_qs(u.query)
                 if u.path == "/health":
-                    self._send({"ok": True, "version": "0.4", "engine": "stdlib"})
+                    self._send({"ok": True, "version": VERSION, "engine": "stdlib"})
+                elif u.path == "/dashboard":
+                    self._send_html(DASHBOARD_HTML)
+                elif u.path == "/stats":
+                    self._send(stats_payload(nexus))
                 elif u.path == "/search":
                     self._send(nexus.route({"type": "search", "query": qs.get("q", [""])[0]}))
                 elif u.path == "/ask":

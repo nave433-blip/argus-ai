@@ -3,3 +3,6 @@ __pycache__/
 *.db
 queue.jsonl
 .pytest_cache/
+*.db-wal
+*.db-shm
+go/go-crawler

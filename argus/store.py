@@ -1,8 +1,10 @@
-"""Storage: SQLite is the working store. Qdrant/Neo4j are adapter
-interfaces (see argus/adapters.py) — not wired in v0.4.
+"""Storage: SQLite is the working store. Qdrant/Neo4j/OpenSearch are
+real optional adapters (see argus/adapters.py) that activate when
+configured; SQLite remains the fallback and system of record.
 
 Tables: documents, chunks (embedding stored as a float32 blob), entities,
-relations (knowledge graph edges).
+relations (knowledge graph edges), assessments (per-doc classification
++ risk, powering the dashboard risk list).
 """
 from __future__ import annotations
 
@@ -30,8 +32,11 @@ class Store:
         self.path = str(path)
         # check_same_thread=False: the FastAPI layer serves requests from
         # a threadpool; SQLite's serialized mode handles concurrency.
-        self.db = sqlite3.connect(self.path, check_same_thread=False)
+        self.db = sqlite3.connect(self.path, check_same_thread=False, timeout=30)
         self.db.row_factory = sqlite3.Row
+        # WAL + busy_timeout: multiple worker processes share this file.
+        self.db.execute("PRAGMA journal_mode=WAL")
+        self.db.execute("PRAGMA busy_timeout=30000")
         self._init_schema()
 
     def _init_schema(self) -> None:
@@ -50,6 +55,9 @@ class Store:
             src TEXT, dst TEXT, relation TEXT, doc_id TEXT,
             weight INTEGER DEFAULT 1,
             PRIMARY KEY(src, dst, relation, doc_id));
+        CREATE TABLE IF NOT EXISTS assessments(
+            doc_id TEXT PRIMARY KEY, category TEXT,
+            risk_score INTEGER, risk_level TEXT, signals TEXT);
         """)
         self.db.commit()
 
@@ -111,6 +119,34 @@ class Store:
                        {r["dst"] for r in self.relations()})
         return {"nodes": nodes, "entities": self.entities(),
                 "relations": self.relations()}
+
+    # -- assessments & stats (dashboard) -------------------------------------
+    def add_assessment(self, doc_id: str, classification: dict, risk: dict) -> None:
+        self.db.execute(
+            "INSERT OR REPLACE INTO assessments VALUES (?,?,?,?,?)",
+            (doc_id, classification.get("category"), risk.get("score"),
+             risk.get("level"), json.dumps(risk.get("signals", []))))
+        self.db.commit()
+
+    def assessments(self) -> list[dict]:
+        out = []
+        for r in self.db.execute(
+                "SELECT * FROM assessments ORDER BY risk_score DESC"):
+            d = dict(r)
+            d["signals"] = json.loads(d["signals"] or "[]")
+            out.append(d)
+        return out
+
+    def stats(self) -> dict:
+        def count(sql: str) -> int:
+            return self.db.execute(sql).fetchone()[0]
+        return {
+            "documents": count("SELECT COUNT(*) FROM documents"),
+            "chunks": count("SELECT COUNT(*) FROM chunks"),
+            "entities": count("SELECT COUNT(DISTINCT value) FROM entities"),
+            "relations": count("SELECT COUNT(*) FROM relations"),
+            "risk_list": self.assessments(),
+        }
 
     def close(self) -> None:
         self.db.close()

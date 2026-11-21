@@ -1,6 +1,6 @@
 {
   "project": "ARGUS-AI",
-  "version": "0.4",
+  "version": "0.5",
   "stack": {
     "go": ["crawler", "scheduler", "worker_pool"],
     "python": ["fastapi", "embeddings", "entity_extraction", "classification", "hybrid_search"],

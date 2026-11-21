@@ -2,6 +2,8 @@ fastapi>=0.110
 uvicorn>=0.29
 cryptography>=42.0
 pytest>=8.0
-# Optional future drop-ins (not required by the core):
+# Built into the core since v0.5 (stdlib HTTP, no extra packages):
+# ollama                 -> local LLM/embeddings for ORACLE via argus.ollama
+# qdrant/neo4j/opensearch -> real adapters via argus.adapters (REST/HTTP)
+# Optional future drop-in:
 # sentence-transformers  -> real neural embeddings via argus.embeddings.Embedder
-# ollama                 -> local LLM for ORACLE Q&A (roadmap: ollama_integration)

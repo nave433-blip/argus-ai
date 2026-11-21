@@ -1,0 +1,59 @@
+# ARGUS-AI full stack: app + optional external stores.
+# SQLite is the app's default store; qdrant/neo4j/opensearch activate in
+# the app only when the matching ARGUS_*_URL env vars are set (see the
+# app service below — uncomment to enable).
+services:
+  app:
+    build: .
+    ports:
+      - "8077:8077"
+    environment:
+      # Uncomment to activate the real adapters (docs/ADAPTERS.md):
+      # ARGUS_QDRANT_URL: "http://qdrant:6333"
+      # ARGUS_NEO4J_URL: "http://neo4j:7474"
+      # ARGUS_NEO4J_USER: "neo4j"
+      # ARGUS_NEO4J_PASSWORD: "argus-dev-password"
+      # ARGUS_OPENSEARCH_URL: "http://opensearch:9200"
+      # ARGUS_OLLAMA_URL: "http://host.docker.internal:11434"
+      ARGUS_OLLAMA_MODEL: "llama3.1"
+    volumes:
+      - argus-data:/data
+      - ./data/inbox:/app/data/inbox
+    depends_on:
+      - qdrant
+      - neo4j
+      - opensearch
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant-data:/qdrant/storage
+
+  neo4j:
+    image: neo4j:5
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: "neo4j/argus-dev-password"
+    volumes:
+      - neo4j-data:/data
+
+  opensearch:
+    image: opensearchproject/opensearch:2
+    environment:
+      discovery.type: single-node
+      DISABLE_SECURITY_PLUGIN: "true"
+      OPENSEARCH_INITIAL_ADMIN_PASSWORD: "Argus-dev-1!"
+    ports:
+      - "9200:9200"
+    volumes:
+      - opensearch-data:/usr/share/opensearch/data
+
+volumes:
+  argus-data:
+  qdrant-data:
+  neo4j-data:
+  opensearch-data:
