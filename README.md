@@ -35,6 +35,20 @@ Adapters -> Qdrant / Neo4j / OpenSearch real clients, on when configured
 | GUARDIAN | Risk scoring (explained signals) + ingestion policy flags |
 | NEXUS | Orchestrator: routes every task to the right agent(s) |
 
+## Hot keywords (priority scraping)
+
+Evan's buzz words — **trends** (alias **trains**, the voice-transcription
+spelling), **cryptocurrency, crash, swell, dip, buy, sell, invest** —
+live in `data/hot_keywords.json` and take PRIORITY over normal scraping
+(`argus/keywords.py`). SCOUT crawl results are scored and returned
+hot-first; pipeline ingests store matches as `HOT_KEYWORD` entities plus
+document metadata. Matching tolerates the real world: exact, plural /
+-ing / -ed forms, misspellings (edit distance), phonetic sound-alikes
+(sell ~ cell), and encoded forms (leet `s3ll`, reversed, base64).
+GUARDIAN treats hot hits as a **relevance signal, never a risk signal**.
+Keywords change priority, never permission — all fetching stays public
+and robots-respecting.
+
 ## Run it
 
 ```bash
@@ -45,7 +59,7 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 .venv/bin/python -m argus.cli ask "who met about the bitcoin treasury policy?"
 .venv/bin/python -m argus.cli graph           # knowledge graph JSON
 .venv/bin/python -m argus.cli serve --port 8077   # API + dashboard at /dashboard
-.venv/bin/python -m pytest tests/ -q          # test suite (29 tests)
+.venv/bin/python -m pytest tests/ -q          # test suite (40 tests)
 ```
 
 Workers (distributed, local form):

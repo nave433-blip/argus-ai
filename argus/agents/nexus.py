@@ -2,6 +2,7 @@
 
 Task types:
   ingest   -> SCOUT (discover) + pipeline + ATLAS (graph) + GUARDIAN (assess)
+  crawl    -> SCOUT (fetch public pages, hot-keyword pages first)
   search   -> ORACLE
   ask      -> ORACLE
   graph    -> ATLAS (export or neighbors)
@@ -18,7 +19,7 @@ from ..store import Store
 from .atlas import Atlas
 from .guardian import Guardian
 from .oracle import Oracle
-from .scout import discover_inbox
+from .scout import crawl_pages, discover_inbox
 
 
 class Nexus:
@@ -45,6 +46,9 @@ class Nexus:
             self._oracle = None  # corpus changed; rebuild search lazily
             return {"agent": "SCOUT+ATLAS+GUARDIAN", "discovered": files,
                     "ingested": report}
+        if ttype == "crawl":
+            return {"agent": "SCOUT",
+                    "pages": crawl_pages(task["urls"])}
         if ttype == "search":
             return {"agent": "ORACLE",
                     "results": self._get_oracle().search(task["query"], task.get("limit", 5))}
@@ -59,4 +63,4 @@ class Nexus:
             return {"agent": "GUARDIAN",
                     "assessment": self.guardian.assess(task.get("text", ""), task.get("kind", "text"))}
         return {"agent": "NEXUS", "error": f"unknown task type: {ttype!r}",
-                "known": ["ingest", "search", "ask", "graph", "assess"]}
+                "known": ["ingest", "crawl", "search", "ask", "graph", "assess"]}
