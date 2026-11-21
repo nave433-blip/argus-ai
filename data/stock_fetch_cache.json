@@ -1,0 +1,271 @@
+{
+  "sources": [
+    {
+      "label": "CNBC markets",
+      "url": "https://www.cnbc.com/markets/",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "MarketWatch",
+      "url": "https://www.marketwatch.com/",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "Nasdaq articles",
+      "url": "https://www.nasdaq.com/articles",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt unreadable \u2014 skipped"
+    },
+    {
+      "label": "Nasdaq earnings calendar",
+      "url": "https://www.nasdaq.com/market-activity/earnings",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt unreadable \u2014 skipped"
+    },
+    {
+      "label": "Investing.com news",
+      "url": "https://www.investing.com/news/",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "Seeking Alpha market news",
+      "url": "https://seekingalpha.com/market-news",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "SEC EDGAR full-text search",
+      "url": "https://www.sec.gov/edgar/search/",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "SEC EDGAR company filings browse",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=10-K",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt disallows"
+    },
+    {
+      "label": "Stooq news",
+      "url": "https://stooq.com/news/",
+      "ok": false,
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "label": "Yahoo Finance news",
+      "url": "https://finance.yahoo.com/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1733
+    },
+    {
+      "label": "Yahoo Finance \u2014 BE news",
+      "url": "https://finance.yahoo.com/quote/BE/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1602
+    },
+    {
+      "label": "Yahoo Finance \u2014 COHR news",
+      "url": "https://finance.yahoo.com/quote/COHR/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1594
+    },
+    {
+      "label": "Yahoo Finance \u2014 LITE news",
+      "url": "https://finance.yahoo.com/quote/LITE/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1602
+    },
+    {
+      "label": "Yahoo Finance \u2014 SNDK news",
+      "url": "https://finance.yahoo.com/quote/SNDK/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1599
+    },
+    {
+      "label": "Yahoo Finance \u2014 MRVL news",
+      "url": "https://finance.yahoo.com/quote/MRVL/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1604
+    },
+    {
+      "label": "Yahoo Finance \u2014 INTC news",
+      "url": "https://finance.yahoo.com/quote/INTC/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1597
+    },
+    {
+      "label": "Yahoo Finance \u2014 STX news",
+      "url": "https://finance.yahoo.com/quote/STX/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1610
+    },
+    {
+      "label": "Yahoo Finance \u2014 TER news",
+      "url": "https://finance.yahoo.com/quote/TER/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1593
+    },
+    {
+      "label": "Yahoo Finance \u2014 FLEX news",
+      "url": "https://finance.yahoo.com/quote/FLEX/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1589
+    },
+    {
+      "label": "Yahoo Finance \u2014 CIEN news",
+      "url": "https://finance.yahoo.com/quote/CIEN/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1597
+    },
+    {
+      "label": "Yahoo Finance \u2014 AMD news",
+      "url": "https://finance.yahoo.com/quote/AMD/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1607
+    },
+    {
+      "label": "Yahoo Finance \u2014 WDC news",
+      "url": "https://finance.yahoo.com/quote/WDC/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1606
+    },
+    {
+      "label": "Yahoo Finance \u2014 DELL news",
+      "url": "https://finance.yahoo.com/quote/DELL/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1602
+    },
+    {
+      "label": "Yahoo Finance \u2014 P news",
+      "url": "https://finance.yahoo.com/quote/P/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1591
+    },
+    {
+      "label": "Yahoo Finance \u2014 VRT news",
+      "url": "https://finance.yahoo.com/quote/VRT/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1597
+    },
+    {
+      "label": "Yahoo Finance \u2014 RDDT news",
+      "url": "https://finance.yahoo.com/quote/RDDT/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1592
+    },
+    {
+      "label": "Yahoo Finance \u2014 SMCI news",
+      "url": "https://finance.yahoo.com/quote/SMCI/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1606
+    },
+    {
+      "label": "Yahoo Finance \u2014 MU news",
+      "url": "https://finance.yahoo.com/quote/MU/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1601
+    },
+    {
+      "label": "Yahoo Finance \u2014 MRNA news",
+      "url": "https://finance.yahoo.com/quote/MRNA/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1593
+    },
+    {
+      "label": "Yahoo Finance \u2014 LRCX news",
+      "url": "https://finance.yahoo.com/quote/LRCX/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1604
+    },
+    {
+      "label": "Yahoo Finance \u2014 FIX news",
+      "url": "https://finance.yahoo.com/quote/FIX/news/",
+      "ok": true,
+      "status": 200,
+      "bytes": 199996,
+      "text_chars": 1604
+    },
+    {
+      "label": "Yahoo Finance \u2014 GLW news",
+      "url": "https://finance.yahoo.com/quote/GLW/news/",
+      "ok": false,
+      "status": null,
+      "error": "Remote end closed connection without response"
+    },
+    {
+      "label": "Yahoo Finance \u2014 COIN news",
+      "url": "https://finance.yahoo.com/quote/COIN/news/",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt fetch timed out \u2014 skipped"
+    },
+    {
+      "label": "Yahoo Finance \u2014 NOW news",
+      "url": "https://finance.yahoo.com/quote/NOW/news/",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt fetch timed out \u2014 skipped"
+    },
+    {
+      "label": "Yahoo Finance \u2014 DDOG news",
+      "url": "https://finance.yahoo.com/quote/DDOG/news/",
+      "ok": false,
+      "status": null,
+      "error": "robots.txt fetch timed out \u2014 skipped"
+    }
+  ]
+}
